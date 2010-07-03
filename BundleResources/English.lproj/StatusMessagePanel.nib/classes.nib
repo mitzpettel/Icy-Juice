@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = EnterTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {OKclicked = id; checkboxChanged = id; }; 
+            CLASS = StatusMessageSheetController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                OKButton = NSButton; 
+                countdownField = NSTextField; 
+                labelField = NSTextField; 
+                messageField = NSTextView; 
+                promptEachTimeCheckbox = NSButton; 
+                promptField = NSTextField; 
+                sheet = NSPanel; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

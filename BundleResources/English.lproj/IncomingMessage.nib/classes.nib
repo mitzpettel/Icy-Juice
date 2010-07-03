@@ -1,0 +1,38 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                acceptFile = id; 
+                authorize = id; 
+                declineFile = id; 
+                denyAuthorization = id; 
+                goToNext = id; 
+                makeContactPermanent = id; 
+                reply = id; 
+                saveTo = id; 
+                showContactHistory = id; 
+            }; 
+            CLASS = IncomingMessageController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addToListButton = NSButton; 
+                authReqMessageField = NSTextView; 
+                currentMessage = id; 
+                dateField = NSTextField; 
+                fileListField = NSTextField; 
+                fileMessageField = NSTextView; 
+                messageField = NSTextView; 
+                nextButton = NSButton; 
+                rejectionReasonField = NSTextView; 
+                tabView = NSTabView; 
+                urlField = NSTextField; 
+                urlMessageField = NSTextView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = MPURLTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }
+    ); 
+    IBVersion = 1; 
+}

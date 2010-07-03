@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {cancelClicked = id; okClicked = id; refreshClicked = id; }; 
+            CLASS = ContactStatusMessageController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                errorTabViewItem = NSTabViewItem; 
+                messageField = NSTextView; 
+                messageTabViewItem = NSTabViewItem; 
+                messageTitle = NSTextField; 
+                progressIndicator = NSProgressIndicator; 
+                readingTabViewItem = NSTabViewItem; 
+                readingTitle = NSTextField; 
+                tabView = NSTabView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = java.lang.Object; LANGUAGE = Java; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {doCancel = id; doOK = id; }; 
+            CLASS = PasswordSheetController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {passwordField = id; promptText = id; window = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,53 @@
+{
+    IBClasses = (
+        {
+            CLASS = ChasingArrowsView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSProgressIndicator; 
+        }, 
+        {CLASS = ContactListView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {
+            ACTIONS = {
+                changeStatus = id; 
+                composeAuthorizationRequest = id; 
+                composeFileTransfer = id; 
+                composeMessage = id; 
+                deleteSelectedContacts = id; 
+                makeContactPermanent = id; 
+                popNextMessage = id; 
+                readStatusMessage = id; 
+                receiveAction = id; 
+                renameContact = id; 
+                showContactHistory = id; 
+                statusMessageSheetOK = id; 
+                toggleInvisibleList = id; 
+                toggleVisibleList = id; 
+            }; 
+            CLASS = ContactListWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                chasingArrows = id; 
+                contactCountText = id; 
+                contactListView = id; 
+                popNextMessageButton = NSButton; 
+                statusBarController = MPStatusBarController; 
+                statusPopUp = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {showInfoPanel = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {hide = id; show = id; toggleVisible = id; }; 
+            CLASS = MPStatusBarController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {belowView = NSView; statusBarView = NSView; window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

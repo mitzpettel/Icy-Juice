@@ -1,0 +1,54 @@
+{
+    IBClasses = (
+        {
+            CLASS = ChasingArrowsView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSProgressIndicator; 
+        }, 
+        {CLASS = EnterTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {hide = id; show = id; toggleVisible = id; }; 
+            CLASS = MPStatusBarController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {belowView = NSView; statusBarView = NSView; window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {addFiles = id; removeFiles = id; }; 
+            CLASS = OutgoingFileController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addButton = NSButton; 
+                filesTable = NSTableView; 
+                progressBar = NSProgressIndicator; 
+                progressBarContainer = NSView; 
+                removeButton = NSButton; 
+                sendButton = NSButton; 
+                sizeTextField = NSTextField; 
+            }; 
+            SUPERCLASS = OutgoingMessageController; 
+        }, 
+        {
+            ACTIONS = {
+                focusOnRecipient = id; 
+                removeRecipient = id; 
+                send = id; 
+                showContactHistory = id; 
+            }; 
+            CLASS = OutgoingMessageController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                messageField = id; 
+                progressIndicator = id; 
+                recipientsDrawer = NSDrawer; 
+                recipientsView = id; 
+                statusBarController = MPStatusBarController; 
+                statusIcon = NSButton; 
+                statusTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

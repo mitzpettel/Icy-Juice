@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {OKAction = id; }; 
+            CLASS = NewUserAssistant; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {passwordField = id; uinField = id; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

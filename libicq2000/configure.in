@@ -1,0 +1,114 @@
+# Process this file with autoconf to produce a configure script.
+
+AC_INIT([src/Client.cpp])
+
+#
+# Version information
+#
+LIBICQ2000_MAJOR_VERSION=0
+LIBICQ2000_MINOR_VERSION=3
+LIBICQ2000_MICRO_VERSION=2
+
+#
+# +1 : ? : +1  == new interface that does not break old one
+# +1 : ? : 0   == new interface that breaks old one
+#  ? : ? : 0   == no new interfaces, but breaks apps
+#  ? :+1 : ?   == just some internal changes, nothing breaks but might work 
+#                 better
+# Remember - change before a release!
+# CURRENT : REVISION : AGE
+LIBICQ2000_SO_VERSION=5:1:2
+
+LIBICQ2000_VERSION=$LIBICQ2000_MAJOR_VERSION.$LIBICQ2000_MINOR_VERSION.$LIBICQ2000_MICRO_VERSION
+
+AC_DEFINE_UNQUOTED(LIBICQ2000_MAJOR_VERSION, $LIBICQ2000_MAJOR_VERSION, [Major version of libicq2000])
+AC_DEFINE_UNQUOTED(LIBICQ2000_MINOR_VERSION, $LIBICQ2000_MINOR_VERSION, [Minor version of libicq2000])
+AC_DEFINE_UNQUOTED(LIBICQ2000_MICRO_VERSION, $LIBICQ2000_MICRO_VERSION, [Micro version of libicq2000])
+AC_DEFINE_UNQUOTED(LIBICQ2000_VERSION, "$LIBICQ2000_VERSION", [Full version of libicq2000])
+
+AC_SUBST(LIBICQ2000_VERSION)
+AC_SUBST(LIBICQ2000_SO_VERSION)
+
+dnl For automake.
+VERSION=$LIBICQ2000_VERSION
+PACKAGE=libicq2000
+
+AM_INIT_AUTOMAKE($PACKAGE,$VERSION)
+
+AM_CONFIG_HEADER(config.h libicq2000/version.h)
+
+# Checks for programs.
+AC_PROG_CC
+AC_PROG_CPP
+AC_PROG_CXX
+
+# Compiler debug flag
+AC_ARG_ENABLE(debug,
+    [  --enable-debug          creates debugging code],
+    [ libicq2000_use_debug="$enableval"], [libicq2000_use_debug="no"])
+if test "$libicq2000_use_debug" = "no"; then
+  CXXFLAGS="`echo $CXXFLAGS | sed s/-g//`"
+  CFLAGS="`echo $CFLAGS | sed s/-g//`"
+fi
+
+AC_MSG_CHECKING(where to put the documentation)
+AC_ARG_WITH(docdir, [  --with-docdir=PATH         Specify where to put the documentation],
+        [libicq2000_cv_docdir=$withval],
+        [libicq2000_cv_docdir='$(prefix)/share/doc/libicq2000'])
+AC_MSG_RESULT($libicq2000_cv_docdir)
+
+docdir=$libicq2000_cv_docdir
+AC_SUBST(docdir)
+
+AC_PROG_INSTALL
+AC_PROG_LN_S
+AC_PROG_MAKE_SET
+AC_PROG_AWK
+
+AM_PROG_LIBTOOL
+
+# Checks for header files
+AC_HEADER_STDC
+AC_CHECK_HEADERS([fcntl.h unistd.h time.h ctype.h errno.h netdb.h sys/types.h sys/wait.h sys/socket.h netinet/in.h arpa/inet.h],,
+  AC_MSG_ERROR([Required header not found]))
+dnl getopt is a gnu/linux thing, so not strictly required
+AC_CHECK_HEADERS([getopt.h])
+
+# Switch to C++ mode and check for needed C++ headers
+AC_LANG_SAVE
+AC_LANG_CPLUSPLUS
+
+AC_CHECK_HEADERS([vector iostream fstream set map string algorithm list memory iterator exception utility],,
+  AC_MSG_ERROR([You need to have the libstdc++ headers installed]))
+
+sstream=no
+AC_CHECK_HEADERS(sstream,sstream=yes)
+AC_CHECK_HEADERS(strstream,sstream=yes)
+if test $sstream != yes ; then
+  AC_MSG_ERROR([Your libstdc++ installation does not have the sstream or strstream classes])
+fi
+
+AC_LANG_RESTORE
+
+# Checks for typedefs, structures, and compiler characteristics.
+AC_C_CONST
+AC_TYPE_SIZE_T
+AC_C_SOCKLEN_T
+AC_STRUCT_TM
+AC_C_INLINE
+AC_HEADER_TIME
+
+# Checks for library functions.
+AC_CHECK_LIB(socket, socket)
+AC_CHECK_FUNC(gethostbyname, ,
+  AC_CHECK_LIB(nsl, gethostbyname,, AC_MSG_ERROR([You do not have gethostbyname - check you have libc installed properly])) )
+
+AC_CHECK_FUNCS([dup2 stat fork mktime select socket strerror],,AC_MSG_ERROR([You do not have one of the standard C functions required - check you have libc installed properly]))
+AC_STRUCT_TIMEZONE
+
+AC_OUTPUT([Makefile \
+           src/Makefile \
+           libicq2000/Makefile \
+           examples/Makefile \
+	   libicq2000.pc
+])

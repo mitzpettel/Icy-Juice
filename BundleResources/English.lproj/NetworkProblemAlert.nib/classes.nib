@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {buttonPressed = id; }; 
+            CLASS = NetworkProblemAlert; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {checkbox = NSButton; view = NSView; }; 
+            SUPERCLASS = NSPanel; 
+        }
+    ); 
+    IBVersion = 1; 
+}

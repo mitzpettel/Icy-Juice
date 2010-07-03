@@ -1,0 +1,59 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                changeTextEncoding = id; 
+                changeWindowType = id; 
+                goToHomepage = id; 
+                ignoreCheckboxChanged = id; 
+                invisibleListCheckboxChanged = id; 
+                refresh = id; 
+                visibleListCheckboxChanged = id; 
+            }; 
+            CLASS = ContactInfoController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutField = NSTextView; 
+                ageField = NSTextField; 
+                ageLabel = NSTextField; 
+                birthDateField = NSTextField; 
+                emailField = id; 
+                firstNameField = id; 
+                genderField = NSTextField; 
+                homeCellularField = NSTextField; 
+                homeCityField = NSTextField; 
+                homeCountryField = NSTextField; 
+                homeFaxField = NSTextField; 
+                homePhoneField = NSTextField; 
+                homeStateField = NSTextField; 
+                homeStreetField = NSTextField; 
+                homeZipField = NSTextField; 
+                homepageField = MPURLTextField; 
+                ignoreCheckbox = NSButton; 
+                invisibleListCheckbox = NSButton; 
+                languagesField = NSTextField; 
+                lastNameField = id; 
+                nicknameField = id; 
+                refreshButton = id; 
+                textEncodingPopup = NSPopUpButton; 
+                uinField = id; 
+                visibleListCheckbox = NSButton; 
+                windowTypeMatrix = NSMatrix; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {showSettings = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = MPActiveTextFieldCell; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTextFieldCell; 
+        }, 
+        {CLASS = MPURLTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }
+    ); 
+    IBVersion = 1; 
+}

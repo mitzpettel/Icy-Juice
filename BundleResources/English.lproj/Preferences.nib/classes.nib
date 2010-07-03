@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                changeDefaultDocument = id; 
+                changeDockIconBehavior = id; 
+                changeSendKey = id; 
+                selectDefaultDocument = id; 
+            }; 
+            CLASS = PreferencesWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                defaultDocumentPopup = id; 
+                dockIconBehaviorMatrix = NSMatrix; 
+                sendKeyMatrix = NSMatrix; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

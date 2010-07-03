@@ -1,0 +1,39 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {changed = id; doCancel = id; doOK = id; doRetrieve = id; }; 
+            CLASS = UserDetailsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutField = NSTextField; 
+                ageField = NSTextField; 
+                birthdayField = NSTextField; 
+                emailField = NSTextField; 
+                firstNameField = NSTextField; 
+                genderPopup = NSPopUpButton; 
+                homeCellularField = NSTextField; 
+                homeCityField = NSTextField; 
+                homeCountryPopup = NSPopUpButton; 
+                homeFaxField = NSTextField; 
+                homePhoneField = NSTextField; 
+                homeStateField = NSTextField; 
+                homeStreetField = NSTextField; 
+                homeZipField = NSTextField; 
+                homepageField = NSTextField; 
+                language1Popup = NSPopUpButton; 
+                language2Popup = NSPopUpButton; 
+                language3Popup = NSPopUpButton; 
+                lastNameField = NSTextField; 
+                nicknameField = NSTextField; 
+                progressIndicator = NSProgressIndicator; 
+                progressSheet = NSWindow; 
+                retrieveButton = NSButton; 
+                saveButton = NSButton; 
+                uinField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

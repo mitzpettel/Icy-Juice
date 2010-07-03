@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {goToFolder = id; skipCurrentFile = id; }; 
+            CLASS = IncomingFileController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                fileIconView = NSImageView; 
+                filenameTextField = NSTextField; 
+                goToFolderButton = NSButton; 
+                infoTextField = NSTextField; 
+                progressBar = NSProgressIndicator; 
+                skipButton = NSButton; 
+                stopButton = NSButton; 
+                totalSizeTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

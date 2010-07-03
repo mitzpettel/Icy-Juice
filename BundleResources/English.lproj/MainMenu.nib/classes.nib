@@ -1,0 +1,78 @@
+{
+    IBClasses = (
+        {
+            CLASS = ContactListController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {contactListView = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ContactListView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {
+            ACTIONS = {
+                add = id; 
+                searchFinished = id; 
+                searchStarted = id; 
+                showInfo = id; 
+                showPanel = id; 
+                startFind = id; 
+                stopFind = id; 
+            }; 
+            CLASS = FindController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addButton = id; 
+                emailField = id; 
+                findButton = id; 
+                firstNameField = id; 
+                icqNumberField = id; 
+                infoButton = id; 
+                lastNameField = id; 
+                nicknameField = id; 
+                resultsView = id; 
+                tabs = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                changeStatus = id; 
+                composeFileTransfer = id; 
+                composeMessage = id; 
+                deleteSelectedContacts = id; 
+                goToNext = id; 
+                importServerBasedList = id; 
+                makeContactPermanent = id; 
+                readStatusMessage = id; 
+                receiveAction = id; 
+                renameContact = id; 
+                reply = id; 
+                send = id; 
+                showContactHistory = id; 
+                showDetails = id; 
+                showInfo = id; 
+                showSettings = id; 
+                toggleInvisibleList = id; 
+                toggleOfflineContacts = id; 
+                toggleStatusBarShown = id; 
+                toggleVisibleList = id; 
+                toggleWindowAutoHiding = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                orderFrontPreferencesPanel = id; 
+                orderFrontStandardAboutPanel = id; 
+                showFindPanel = id; 
+                showInfoPanel = id; 
+            }; 
+            CLASS = MainController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {sendMessageMenuItem = NSMenuItem; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libicq2000
+Description: An ICQ2000/2001 C++ library
+Version: @VERSION@
+Libs: -L${libdir} -licq2000
+Cflags: -I${includedir}/libicq2000

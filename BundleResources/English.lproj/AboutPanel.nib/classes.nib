@@ -1,0 +1,21 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {logoClicked = id; showPanel = id; }; 
+            CLASS = AboutPanelController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                acknowledgmentsTextView = NSTextView; 
+                appIconView = id; 
+                appNameField = id; 
+                infoPanel = id; 
+                legalTextField = id; 
+                localizationCreditsTextView = NSTextView; 
+                versionField = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

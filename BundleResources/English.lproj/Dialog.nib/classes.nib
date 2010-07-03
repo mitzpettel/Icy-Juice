@@ -1,0 +1,72 @@
+{
+    IBClasses = (
+        {
+            CLASS = ChasingArrowsView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSProgressIndicator; 
+        }, 
+        {
+            ACTIONS = {
+                acceptFile = id; 
+                authorize = id; 
+                declineFile = id; 
+                denyAuthorization = id; 
+                ignoreAuthorizationRequest = id; 
+                saveTo = id; 
+                toggleWindowAutoHiding = id; 
+            }; 
+            CLASS = DialogController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addToListButton = id; 
+                authReqMessageField = id; 
+                authReqSheet = id; 
+                fileListField = NSTextField; 
+                fileMessageView = NSTextView; 
+                fileSheet = NSPanel; 
+                historyView = HistoryView; 
+            }; 
+            SUPERCLASS = OutgoingMessageController; 
+        }, 
+        {CLASS = EnterTextView; LANGUAGE = ObjC; SUPERCLASS = NSTextView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = HistoryView; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {
+            ACTIONS = {hide = id; show = id; toggleVisible = id; }; 
+            CLASS = MPStatusBarController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {belowView = NSView; statusBarView = NSView; window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                focusOnRecipient = id; 
+                readStatusMessage = id; 
+                rejectCancelClicked = id; 
+                rejectResendClicked = id; 
+                removeRecipient = id; 
+                send = id; 
+                showContactHistory = id; 
+                toggleStatusBarShown = id; 
+            }; 
+            CLASS = OutgoingMessageController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                messageField = id; 
+                progressIndicator = ChasingArrowsView; 
+                recipientsDrawer = NSDrawer; 
+                recipientsView = id; 
+                rejectDescriptionField = NSTextField; 
+                rejectMessageSheet = NSPanel; 
+                rejectStatusMessageField = NSTextView; 
+                rejectTitleField = NSTextField; 
+                rejectUrgentButton = NSButton; 
+                statusBarController = MPStatusBarController; 
+                statusIcon = NSImageView; 
+                statusTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

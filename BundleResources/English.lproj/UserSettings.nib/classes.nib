@@ -1,0 +1,70 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {toggleBaseWritingDirection = id; }; 
+            CLASS = HistoryView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTextView; 
+        }, 
+        {
+            ACTIONS = {
+                OK = id; 
+                cancel = id; 
+                changedFilesDirectory = id; 
+                colorChanged = id; 
+                fontButtonClicked = id; 
+                idleMinutesCheckboxChanged = id; 
+                messageSoundChanged = id; 
+                tabChoiceChanged = id; 
+                useDefaultICQServer = id; 
+            }; 
+            CLASS = UserSettingsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                autoPopupCheckbox = NSButton; 
+                checkSpellingCheckbox = NSButton; 
+                colorPaneView = NSView; 
+                displayNetworkAlertCheckbox = NSButton; 
+                filesDirectoryPopUp = NSPopUpButton; 
+                generalPaneView = NSView; 
+                hideWhenSendingCheckbox = NSButton; 
+                idleMinutesCheckbox = NSButton; 
+                idleMinutesTextField = NSTextField; 
+                ignoreIfNotOnListCheckbox = NSButton; 
+                initialStatusPopup = id; 
+                messageSoundPopup = NSPopUpButton; 
+                messageWindowsPaneView = NSView; 
+                networkPaneView = NSView; 
+                notificationPaneView = NSView; 
+                paneView = NSView; 
+                portRangeEndTextField = NSTextField; 
+                portRangeStartTextField = NSTextField; 
+                promptForStatusCheckbox = NSButton; 
+                receivedBackgroundColorWell = NSColorWell; 
+                receivedFontButton = NSButton; 
+                receivedFontTextField = NSTextField; 
+                receivedTextColorWell = NSColorWell; 
+                sampleHistoryView = HistoryView; 
+                screenEffectCheckbox = NSButton; 
+                sentBackgroundColorWell = NSColorWell; 
+                sentFontButton = NSButton; 
+                sentFontTextField = NSTextField; 
+                sentTextColorWell = NSColorWell; 
+                serverHostField = NSTextField; 
+                serverPortField = NSTextField; 
+                silentFrontmostConversationCheckbox = NSButton; 
+                silentOccupiedDNDCheckbox = NSButton; 
+                statusMessageField = NSTextView; 
+                statusPaneView = NSView; 
+                statusTable = NSTableView; 
+                textEncodingPopup = id; 
+                timeToHideInactivePopup = NSPopUpButton; 
+                webAwareCheckbox = NSButton; 
+                windowTypeMatrix = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,1625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3722AC8905BDB42500228324 /* AboutPanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = 3722AC8705BDB42500228324 /* AboutPanel.nib */; };
+		3722ACBF05BDBA1700228324 /* AboutPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3722ACBD05BDBA1700228324 /* AboutPanelController.h */; };
+		3722ACC005BDBA1700228324 /* AboutPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3722ACBE05BDBA1700228324 /* AboutPanelController.m */; };
+		373250FD05C2B2D9004943AE /* acknowledgments.html in Resources */ = {isa = PBXBuildFile; fileRef = 373250FB05C2B2D9004943AE /* acknowledgments.html */; };
+		3732510405C2B4BC004943AE /* mitzlogo.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3732510305C2B4BC004943AE /* mitzlogo.tiff */; };
+		3749922405CA8EA600639B72 /* IcyJuice.pch in Headers */ = {isa = PBXBuildFile; fileRef = 37FFA4A405C1181400A11145 /* IcyJuice.pch */; };
+		375F33CA0A97B97D0002D668 /* libicq2000.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3772F7F80A979F3500CA2792 /* libicq2000.a */; };
+		37B04D53059DE840005089C5 /* MainController.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FDB0C400C578C17F000001 /* MainController.h */; };
+		37B04D54059DE840005089C5 /* ContactListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FA387F00C58F4C7F000001 /* ContactListView.h */; };
+		37B04D55059DE840005089C5 /* Contact.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FA388500C58FEF7F000001 /* Contact.h */; };
+		37B04D56059DE840005089C5 /* ContactStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 0101E36900C794977F000001 /* ContactStatus.h */; };
+		37B04D57059DE840005089C5 /* ICQConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABAAABA00C7C3367F000001 /* ICQConnection.h */; };
+		37B04D58059DE840005089C5 /* User.h in Headers */ = {isa = PBXBuildFile; fileRef = 00E9384400CAB7277F000001 /* User.h */; };
+		37B04D59059DE840005089C5 /* FindController.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FE1DE600CB74117F000001 /* FindController.h */; };
+		37B04D5A059DE840005089C5 /* ContactInfoController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0104A74F00CEBD347F000001 /* ContactInfoController.h */; };
+		37B04D5B059DE840005089C5 /* ContactList.h in Headers */ = {isa = PBXBuildFile; fileRef = 01135AFE00C6F8BC7F000001 /* ContactList.h */; };
+		37B04D5C059DE840005089C5 /* PasswordSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 014AB67700D6B2017F000001 /* PasswordSheetController.h */; };
+		37B04D5D059DE840005089C5 /* IncomingMessageController.h in Headers */ = {isa = PBXBuildFile; fileRef = F501E9E000E5083801000001 /* IncomingMessageController.h */; };
+		37B04D5E059DE840005089C5 /* Client.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DFD4C0019428A001A3FD95 /* Client.h */; };
+		37B04D5F059DE840005089C5 /* OutgoingMessageController.h in Headers */ = {isa = PBXBuildFile; fileRef = F54D1B33019ADE160128951A /* OutgoingMessageController.h */; };
+		37B04D60059DE840005089C5 /* icq2000glue.h in Headers */ = {isa = PBXBuildFile; fileRef = F5434EBE019BF1D2013DA7B5 /* icq2000glue.h */; };
+		37B04D61059DE840005089C5 /* ICQUserDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = F543DA6001A3DB0C0139EB9B /* ICQUserDocument.h */; };
+		37B04D62059DE840005089C5 /* ContactListWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F543DA6F01A408290139EB9B /* ContactListWindowController.h */; };
+		37B04D63059DE840005089C5 /* EnterTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F562113301A51AC90133A8F1 /* EnterTextView.h */; };
+		37B04D64059DE840005089C5 /* NewUserAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = F543A0E801A541CE014AFF99 /* NewUserAssistant.h */; };
+		37B04D65059DE840005089C5 /* IcyJuice.h in Headers */ = {isa = PBXBuildFile; fileRef = F5AB084A01AE77E501FBD877 /* IcyJuice.h */; };
+		37B04D66059DE840005089C5 /* ICJStatusIconCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F565F9B801AEF0AE01D064AC /* ICJStatusIconCell.h */; };
+		37B04D67059DE840005089C5 /* UserSettingsController.h in Headers */ = {isa = PBXBuildFile; fileRef = F52371A901B7931A01FBB7D0 /* UserSettingsController.h */; };
+		37B04D68059DE840005089C5 /* HistoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = F576BACF01B81A99017BAC93 /* HistoryView.h */; };
+		37B04D69059DE840005089C5 /* PreferencesWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5226B9401C0C36101AA27BB /* PreferencesWindowController.h */; };
+		37B04D6A059DE840005089C5 /* DockMenuTrampoline.h in Headers */ = {isa = PBXBuildFile; fileRef = F5226BA101C1296901AA27BB /* DockMenuTrampoline.h */; };
+		37B04D6B059DE840005089C5 /* HistoryWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B825A101D281F801C80101 /* HistoryWindowController.h */; };
+		37B04D6C059DE840005089C5 /* ContactPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CD2F5F01D29AE401C80101 /* ContactPlaceholder.h */; };
+		37B04D6D059DE840005089C5 /* UserDetailsController.h in Headers */ = {isa = PBXBuildFile; fileRef = F53B4BC701DDF70B01C7BBD6 /* UserDetailsController.h */; };
+		37B04D6E059DE840005089C5 /* MPURLTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CC690D021AA12D01DA618A /* MPURLTextField.h */; };
+		37B04D6F059DE840005089C5 /* MPURLTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CC691B021AB26A01DA618A /* MPURLTextFieldCell.h */; };
+		37B04D70059DE840005089C5 /* StatusMessageSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = F53370DD0223C9E101C7BB16 /* StatusMessageSheetController.h */; };
+		37B04D71059DE840005089C5 /* ContactStatusMessageController.h in Headers */ = {isa = PBXBuildFile; fileRef = F551529D022EE91C01000001 /* ContactStatusMessageController.h */; };
+		37B04D72059DE840005089C5 /* NSDate-MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F545CE6B0232C06B01000001 /* NSDate-MPAdditions.h */; };
+		37B04D73059DE840005089C5 /* MPStatusBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = F5502931023A0ADC01C7BBF4 /* MPStatusBarController.h */; };
+		37B04D74059DE840005089C5 /* NSString-MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F534F0390241F19701C7BC3B /* NSString-MPAdditions.h */; };
+		37B04D75059DE840005089C5 /* ICJMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = F5248030025AF12A01C7BBC6 /* ICJMessage.h */; };
+		37B04D76059DE840005089C5 /* ICQMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = F501E9E400E5086101000001 /* ICQMessage.h */; };
+		37B04D77059DE840005089C5 /* OutgoingAuthReqController.h in Headers */ = {isa = PBXBuildFile; fileRef = F56DBF21026CBF1101000005 /* OutgoingAuthReqController.h */; };
+		37B04D78059DE840005089C5 /* LibContactRef.h in Headers */ = {isa = PBXBuildFile; fileRef = F5320DE3027095C001000005 /* LibContactRef.h */; };
+		37B04D79059DE840005089C5 /* NSSound-MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F56472C0029A94B501000005 /* NSSound-MPAdditions.h */; };
+		37B04D7A059DE840005089C5 /* ICJDocumentController.h in Headers */ = {isa = PBXBuildFile; fileRef = F513A76802CDFB8B01000005 /* ICJDocumentController.h */; };
+		37B04D7B059DE840005089C5 /* ScreenSaverPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F567BE1403168A9801000005 /* ScreenSaverPrivate.h */; };
+		37B04D7C059DE840005089C5 /* MPUserActivityMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = F5779BBA033BD1F501000005 /* MPUserActivityMonitor.h */; };
+		37B04D7D059DE840005089C5 /* NSColor-MPAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F521CED203BCA83701000005 /* NSColor-MPAdditions.h */; };
+		37B04D7E059DE840005089C5 /* NSWindowController-ICJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 373DB1EA03C4C36E00000005 /* NSWindowController-ICJAdditions.h */; };
+		37B04D7F059DE840005089C5 /* OutgoingFileController.h in Headers */ = {isa = PBXBuildFile; fileRef = 37058ABA04A4689100000005 /* OutgoingFileController.h */; };
+		37B04D80059DE840005089C5 /* DialogController.h in Headers */ = {isa = PBXBuildFile; fileRef = F52AD37201B8C59F01264421 /* DialogController.h */; };
+		37B04D81059DE840005089C5 /* ICQFileTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BD3A34056294FA00201A11 /* ICQFileTransfer.h */; };
+		37B04D82059DE840005089C5 /* fileTransferGlue.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BD3A380562DC2300201A11 /* fileTransferGlue.h */; };
+		37B04D83059DE840005089C5 /* IncomingFileController.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D4D65E0565219500168003 /* IncomingFileController.h */; };
+		37B04D84059DE840005089C5 /* History.h in Headers */ = {isa = PBXBuildFile; fileRef = 37704EBA056BCAA700788C5E /* History.h */; };
+		37B04D86059DE840005089C5 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		37B04D87059DE840005089C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		37B04D88059DE840005089C5 /* Find.nib in Resources */ = {isa = PBXBuildFile; fileRef = 03D53D9100CADE257F000001 /* Find.nib */; };
+		37B04D89059DE840005089C5 /* ContactInfo.nib in Resources */ = {isa = PBXBuildFile; fileRef = 0104A74D00CEB0F77F000001 /* ContactInfo.nib */; };
+		37B04D8A059DE840005089C5 /* PasswordSheet.nib in Resources */ = {isa = PBXBuildFile; fileRef = 014AB67400D6B1D07F000001 /* PasswordSheet.nib */; };
+		37B04D8B059DE840005089C5 /* IncomingMessage.nib in Resources */ = {isa = PBXBuildFile; fileRef = F501E9DD00E507D201000001 /* IncomingMessage.nib */; };
+		37B04D8C059DE840005089C5 /* OutgoingMessage.nib in Resources */ = {isa = PBXBuildFile; fileRef = F54D1B38019AE2650128951A /* OutgoingMessage.nib */; };
+		37B04D8D059DE840005089C5 /* ContactListWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = F543DA6B01A407BD0139EB9B /* ContactListWindow.nib */; };
+		37B04D8E059DE840005089C5 /* ContactList.icns in Resources */ = {isa = PBXBuildFile; fileRef = F562112B01A511A60133A8F1 /* ContactList.icns */; };
+		37B04D8F059DE840005089C5 /* NewUserAssistant.nib in Resources */ = {isa = PBXBuildFile; fileRef = F543A0EE01A548E8014AFF99 /* NewUserAssistant.nib */; };
+		37B04D90059DE840005089C5 /* Delete.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F553490901A91D31018B1338 /* Delete.tiff */; };
+		37B04D91059DE840005089C5 /* Contact away.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5BEB57601AC5C6C017C3DF8 /* Contact away.tiff */; };
+		37B04D92059DE840005089C5 /* Contact DND.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5BEB57701AC5C6C017C3DF8 /* Contact DND.tiff */; };
+		37B04D93059DE840005089C5 /* Contact invisible.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5BEB57801AC5C6C017C3DF8 /* Contact invisible.tiff */; };
+		37B04D94059DE840005089C5 /* Contact NA.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5BEB57901AC5C6C017C3DF8 /* Contact NA.tiff */; };
+		37B04D95059DE840005089C5 /* Contact occupied.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5BEB57A01AC5C6C017C3DF8 /* Contact occupied.tiff */; };
+		37B04D96059DE840005089C5 /* Contact online.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5BEB57B01AC5C6C017C3DF8 /* Contact online.tiff */; };
+		37B04D97059DE840005089C5 /* offline.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5BEB57C01AC5C6C017C3DF8 /* offline.tiff */; };
+		37B04D98059DE840005089C5 /* empty glass.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F52751DF01AE478601923D5B /* empty glass.tiff */; };
+		37B04D99059DE840005089C5 /* full glass glowing.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F52751E001AE478601923D5B /* full glass glowing.tiff */; };
+		37B04D9A059DE840005089C5 /* fullglass.icns in Resources */ = {isa = PBXBuildFile; fileRef = F52751E101AE478601923D5B /* fullglass.icns */; };
+		37B04D9B059DE840005089C5 /* full glass.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F52751E201AE478601923D5B /* full glass.tiff */; };
+		37B04D9C059DE840005089C5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5AB084C01AE84B101FBD877 /* Localizable.strings */; };
+		37B04D9D059DE840005089C5 /* message.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5A9D5A901AFDA7201B77B7E /* message.tiff */; };
+		37B04D9E059DE840005089C5 /* Incoming.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F5222D5D01AEA7EF01E5C83F /* Incoming.aiff */; };
+		37B04DA0059DE840005089C5 /* ChasingArrows.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5979A1301B195AC01738FB8 /* ChasingArrows.tif */; };
+		37B04DA2059DE840005089C5 /* UserSettings.nib in Resources */ = {isa = PBXBuildFile; fileRef = F557AD2301B6E4E5013C4CD2 /* UserSettings.nib */; };
+		37B04DA3059DE840005089C5 /* Dialog.nib in Resources */ = {isa = PBXBuildFile; fileRef = F576BADE01B83EBA017BAC93 /* Dialog.nib */; };
+		37B04DA4059DE840005089C5 /* Preferences.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5226B9101C0C05801AA27BB /* Preferences.nib */; };
+		37B04DA5059DE840005089C5 /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = F556A38201CFCA2901C80101 /* Countries.plist */; };
+		37B04DA6059DE840005089C5 /* Sex.plist in Resources */ = {isa = PBXBuildFile; fileRef = F556A38401CFCA2901C80101 /* Sex.plist */; };
+		37B04DA7059DE840005089C5 /* History.nib in Resources */ = {isa = PBXBuildFile; fileRef = F576BAD301B81C82017BAC93 /* History.nib */; };
+		37B04DA8059DE840005089C5 /* UserDetails.nib in Resources */ = {isa = PBXBuildFile; fileRef = F53B4BC401DDF54601C7BBD6 /* UserDetails.nib */; };
+		37B04DA9059DE840005089C5 /* saved history.png in Resources */ = {isa = PBXBuildFile; fileRef = F52FA8A801F0C44F01000004 /* saved history.png */; };
+		37B04DAA059DE840005089C5 /* user info.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5FB747601F758EF01000001 /* user info.tiff */; };
+		37B04DAB059DE840005089C5 /* Clean.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F56FF53A01D4F3E801C80101 /* Clean.tiff */; };
+		37B04DAC059DE840005089C5 /* history book.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F58806E001FC9ED701C7BBA4 /* history book.tiff */; };
+		37B04DAD059DE840005089C5 /* add to contact list.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F58806E201FC9F0201C7BBA4 /* add to contact list.tiff */; };
+		37B04DAE059DE840005089C5 /* recipients.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F58806E801FCA70701C7BBA4 /* recipients.tiff */; };
+		37B04DAF059DE840005089C5 /* forward arrow.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F56512A9020165CD01C7BB97 /* forward arrow.tiff */; };
+		37B04DB0059DE840005089C5 /* envelope.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F56512AB020166F401C7BB97 /* envelope.tiff */; };
+		37B04DB1059DE840005089C5 /* reply envelope.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F56512AE0201739201C7BB97 /* reply envelope.tiff */; };
+		37B04DB2059DE840005089C5 /* Languages.plist in Resources */ = {isa = PBXBuildFile; fileRef = F525CC8B020BFBBA01C7BC65 /* Languages.plist */; };
+		37B04DB3059DE840005089C5 /* StatusMessagePanel.nib in Resources */ = {isa = PBXBuildFile; fileRef = F52A1D880222681B01C7BB65 /* StatusMessagePanel.nib */; };
+		37B04DB4059DE840005089C5 /* ContactStatusMessage.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5A4E0FA022D5CF701C7BB33 /* ContactStatusMessage.nib */; };
+		37B04DB5059DE840005089C5 /* Multiple.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5C469CD023A47B401C7BBF4 /* Multiple.tiff */; };
+		37B04DB6059DE840005089C5 /* Abbreviated.strings in Resources */ = {isa = PBXBuildFile; fileRef = F54251B1024227A501C7BC3B /* Abbreviated.strings */; };
+		37B04DB7059DE840005089C5 /* status bar envelope.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5EB10F10243A2B701C7BC3F /* status bar envelope.tiff */; };
+		37B04DB8059DE840005089C5 /* status bar envelope pushed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = F5EB10F30243A5BB01C7BC3F /* status bar envelope pushed.tiff */; };
+		37B04DB9059DE840005089C5 /* Contact pending authorization.tif in Resources */ = {isa = PBXBuildFile; fileRef = F5C08D72025DF48001C7BC6C /* Contact pending authorization.tif */; };
+		37B04DBA059DE840005089C5 /* OutgoingAuthReq.nib in Resources */ = {isa = PBXBuildFile; fileRef = F56DBF1E026CB9DE01000005 /* OutgoingAuthReq.nib */; };
+		37B04DBB059DE840005089C5 /* RejectMessage.nib in Resources */ = {isa = PBXBuildFile; fileRef = F5997FC60279908B01000005 /* RejectMessage.nib */; };
+		37B04DBC059DE840005089C5 /* OutgoingFile.nib in Resources */ = {isa = PBXBuildFile; fileRef = 37058ABE04A469C100000005 /* OutgoingFile.nib */; };
+		37B04DBD059DE840005089C5 /* IncomingFile.nib in Resources */ = {isa = PBXBuildFile; fileRef = 37D4D664056524AC00168003 /* IncomingFile.nib */; };
+		37B04DBF059DE840005089C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		37B04DC0059DE840005089C5 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FDB0C500C578C17F000001 /* MainController.m */; };
+		37B04DC1059DE840005089C5 /* ContactListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA388000C58F4C7F000001 /* ContactListView.m */; };
+		37B04DC2059DE840005089C5 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA388600C58FEF7F000001 /* Contact.m */; };
+		37B04DC3059DE840005089C5 /* ContactStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 0101E36A00C794977F000001 /* ContactStatus.m */; };
+		37B04DC4059DE840005089C5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E9384500CAB7277F000001 /* User.m */; };
+		37B04DC5059DE840005089C5 /* ICQConnection.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0ABAAABB00C7C3367F000001 /* ICQConnection.mm */; };
+		37B04DC6059DE840005089C5 /* FindController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FE1DE500CB74117F000001 /* FindController.m */; };
+		37B04DC7059DE840005089C5 /* ContactInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0104A75000CEBD347F000001 /* ContactInfoController.m */; };
+		37B04DC8059DE840005089C5 /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 01135AFF00C6F8BC7F000001 /* ContactList.m */; };
+		37B04DC9059DE840005089C5 /* PasswordSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 014AB67800D6B2017F000001 /* PasswordSheetController.m */; };
+		37B04DCA059DE840005089C5 /* IncomingMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F501E9E100E5083801000001 /* IncomingMessageController.m */; };
+		37B04DCB059DE840005089C5 /* OutgoingMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D1B34019ADE160128951A /* OutgoingMessageController.m */; };
+		37B04DCC059DE840005089C5 /* ICQUserDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F543DA5F01A3DB0C0139EB9B /* ICQUserDocument.m */; };
+		37B04DCD059DE840005089C5 /* ContactListWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F543DA6E01A408290139EB9B /* ContactListWindowController.m */; };
+		37B04DCE059DE840005089C5 /* EnterTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F562113401A51AC90133A8F1 /* EnterTextView.m */; };
+		37B04DCF059DE840005089C5 /* ChasingArrowsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F562113B01A524FE0133A8F1 /* ChasingArrowsView.m */; };
+		37B04DD0059DE840005089C5 /* NewUserAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = F543A0E901A541CE014AFF99 /* NewUserAssistant.m */; };
+		37B04DD1059DE840005089C5 /* ICJStatusIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F565F9B901AEF0AE01D064AC /* ICJStatusIconCell.m */; };
+		37B04DD2059DE840005089C5 /* UserSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52371AA01B7931A01FBB7D0 /* UserSettingsController.m */; };
+		37B04DD3059DE840005089C5 /* HistoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F576BAD001B81A99017BAC93 /* HistoryView.m */; };
+		37B04DD4059DE840005089C5 /* DialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52AD37301B8C59F01264421 /* DialogController.m */; };
+		37B04DD5059DE840005089C5 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226B9501C0C36101AA27BB /* PreferencesWindowController.m */; };
+		37B04DD6059DE840005089C5 /* DockMenuTrampoline.m in Sources */ = {isa = PBXBuildFile; fileRef = F5226BA201C1296901AA27BB /* DockMenuTrampoline.m */; };
+		37B04DD7059DE840005089C5 /* HistoryWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B825A201D281F801C80101 /* HistoryWindowController.m */; };
+		37B04DD8059DE840005089C5 /* ContactPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CD2F6001D29AE401C80101 /* ContactPlaceholder.m */; };
+		37B04DD9059DE840005089C5 /* UserDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53B4BC801DDF70B01C7BBD6 /* UserDetailsController.m */; };
+		37B04DDA059DE840005089C5 /* MPURLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC690E021AA12D01DA618A /* MPURLTextField.m */; };
+		37B04DDB059DE840005089C5 /* MPURLTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CC691C021AB26A01DA618A /* MPURLTextFieldCell.m */; };
+		37B04DDC059DE840005089C5 /* StatusMessageSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = F53370DE0223C9E101C7BB16 /* StatusMessageSheetController.m */; };
+		37B04DDD059DE840005089C5 /* ContactStatusMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = F551529C022EE91C01000001 /* ContactStatusMessageController.m */; };
+		37B04DDE059DE840005089C5 /* NSDate-MPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F545CE6C0232C06B01000001 /* NSDate-MPAdditions.m */; };
+		37B04DDF059DE840005089C5 /* MPStatusBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5502932023A0ADC01C7BBF4 /* MPStatusBarController.m */; };
+		37B04DE0059DE840005089C5 /* NSString-MPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F534F03A0241F19701C7BC3B /* NSString-MPAdditions.m */; };
+		37B04DE1059DE840005089C5 /* ICJMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F5248031025AF12A01C7BBC6 /* ICJMessage.m */; };
+		37B04DE2059DE840005089C5 /* ICQMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = F501E9E500E5086101000001 /* ICQMessage.m */; };
+		37B04DE3059DE840005089C5 /* OutgoingAuthReqController.m in Sources */ = {isa = PBXBuildFile; fileRef = F56DBF22026CBF1101000005 /* OutgoingAuthReqController.m */; };
+		37B04DE4059DE840005089C5 /* LibContactRef.mm in Sources */ = {isa = PBXBuildFile; fileRef = F5320DE4027095C001000005 /* LibContactRef.mm */; };
+		37B04DE5059DE840005089C5 /* NSSound-MPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F56472BF029A94B501000005 /* NSSound-MPAdditions.m */; };
+		37B04DE6059DE840005089C5 /* ICJDocumentController.m in Sources */ = {isa = PBXBuildFile; fileRef = F513A76702CDFB8B01000005 /* ICJDocumentController.m */; };
+		37B04DE7059DE840005089C5 /* MPUserActivityMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = F5779BBB033BD1F501000005 /* MPUserActivityMonitor.m */; };
+		37B04DE8059DE840005089C5 /* NSColor-MPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F521CED303BCA83701000005 /* NSColor-MPAdditions.m */; };
+		37B04DE9059DE840005089C5 /* NSWindowController-ICJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 373DB1EB03C4C36E00000005 /* NSWindowController-ICJAdditions.m */; };
+		37B04DEA059DE840005089C5 /* OutgoingFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37058ABB04A4689100000005 /* OutgoingFileController.m */; };
+		37B04DEB059DE840005089C5 /* ICQFileTransfer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 37BD3A35056294FA00201A11 /* ICQFileTransfer.mm */; };
+		37B04DEC059DE840005089C5 /* IncomingFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D4D65F0565219500168003 /* IncomingFileController.m */; };
+		37B04DED059DE840005089C5 /* History.m in Sources */ = {isa = PBXBuildFile; fileRef = 37704EBB056BCAA700788C5E /* History.m */; };
+		37B04DEF059DE840005089C5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		37B04DF0059DE840005089C5 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51231600305452E01000005 /* IOKit.framework */; };
+		37B04DF1059DE840005089C5 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F567BE1603168AC501000005 /* ScreenSaver.framework */; };
+		37B04DF2059DE840005089C5 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AD42E603360C7601000005 /* Carbon.framework */; };
+		37B04DF3059DE840005089C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F533336C0343317801000005 /* SystemConfiguration.framework */; };
+		37CF9B6905B957A900E0F0E2 /* caution.tif in Resources */ = {isa = PBXBuildFile; fileRef = 37CF9B6805B957A900E0F0E2 /* caution.tif */; };
+		37CF9C4A05B96BA800E0F0E2 /* NetworkProblemAlert.nib in Resources */ = {isa = PBXBuildFile; fileRef = 37CF9C4805B96BA800E0F0E2 /* NetworkProblemAlert.nib */; };
+		37CF9C5905B96BEE00E0F0E2 /* NetworkProblemAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 37CF9C5705B96BEE00E0F0E2 /* NetworkProblemAlert.h */; };
+		37CF9C5A05B96BEE00E0F0E2 /* NetworkProblemAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CF9C5805B96BEE00E0F0E2 /* NetworkProblemAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		375F33C70A97B88C0002D668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3772F7F00A979F3500CA2792 /* libicq2000.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 375F335E0A97B5E20002D668;
+			remoteInfo = icq2000;
+		};
+		3772F7F70A979F3500CA2792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3772F7F00A979F3500CA2792 /* libicq2000.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 37F4924E05AF1A530023FC10;
+			remoteInfo = icq2000;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3765446406673F5D0050C38F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E9384400CAB7277F000001 /* User.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		00E9384500CAB7277F000001 /* User.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		00F9320800CE561B7F000001 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ContactInfo.nib; sourceTree = "<group>"; };
+		00FDB0C400C578C17F000001 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		00FDB0C500C578C17F000001 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		00FE1DE500CB74117F000001 /* FindController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = FindController.m; sourceTree = "<group>"; };
+		00FE1DE600CB74117F000001 /* FindController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FindController.h; sourceTree = "<group>"; };
+		00FFBE0B00C811027F000001 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		0101E36900C794977F000001 /* ContactStatus.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContactStatus.h; sourceTree = "<group>"; };
+		0101E36A00C794977F000001 /* ContactStatus.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ContactStatus.m; sourceTree = "<group>"; };
+		0104A74F00CEBD347F000001 /* ContactInfoController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContactInfoController.h; sourceTree = "<group>"; };
+		0104A75000CEBD347F000001 /* ContactInfoController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ContactInfoController.m; sourceTree = "<group>"; };
+		01135AFE00C6F8BC7F000001 /* ContactList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
+		01135AFF00C6F8BC7F000001 /* ContactList.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
+		014AB67500D6B1D07F000001 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PasswordSheet.nib; sourceTree = "<group>"; };
+		014AB67700D6B2017F000001 /* PasswordSheetController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PasswordSheetController.h; sourceTree = "<group>"; };
+		014AB67800D6B2017F000001 /* PasswordSheetController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PasswordSheetController.m; sourceTree = "<group>"; };
+		01FA387F00C58F4C7F000001 /* ContactListView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContactListView.h; sourceTree = "<group>"; };
+		01FA388000C58F4C7F000001 /* ContactListView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ContactListView.m; sourceTree = "<group>"; };
+		01FA388500C58FEF7F000001 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		01FA388600C58FEF7F000001 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		03D53D9200CADE257F000001 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Find.nib; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0ABAAABA00C7C3367F000001 /* ICQConnection.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ICQConnection.h; sourceTree = "<group>"; };
+		0ABAAABB00C7C3367F000001 /* ICQConnection.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = ICQConnection.mm; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		37058ABA04A4689100000005 /* OutgoingFileController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OutgoingFileController.h; sourceTree = "<group>"; };
+		37058ABB04A4689100000005 /* OutgoingFileController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OutgoingFileController.m; sourceTree = "<group>"; };
+		37058ABF04A469C100000005 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/OutgoingFile.nib; sourceTree = "<group>"; };
+		37164A7A066767F50059A03D /* Capabilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Capabilities.h; path = libicq2000/src/Capabilities.h; sourceTree = SOURCE_ROOT; };
+		372290FD0A98A40200764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = sv; path = sv.lproj/acknowledgments.html; sourceTree = "<group>"; };
+		372291050A98A42300764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Italian; path = Italian.lproj/acknowledgments.html; sourceTree = "<group>"; };
+		372291070A98A43E00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = French; path = French.lproj/acknowledgments.html; sourceTree = "<group>"; };
+		372291080A98A44100764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = German; path = German.lproj/acknowledgments.html; sourceTree = "<group>"; };
+		372291090A98A44400764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = cs; path = cs.lproj/acknowledgments.html; sourceTree = "<group>"; };
+		3722910A0A98A45300764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/AboutPanel.nib; sourceTree = "<group>"; };
+		3722910B0A98A45500764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/AboutPanel.nib; sourceTree = "<group>"; };
+		3722910C0A98A45800764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/AboutPanel.nib; sourceTree = "<group>"; };
+		3722910D0A98A45A00764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/AboutPanel.nib; sourceTree = "<group>"; };
+		3722910E0A98A45D00764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/AboutPanel.nib; sourceTree = "<group>"; };
+		372291130A98A49300764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/ContactInfo.nib; sourceTree = "<group>"; };
+		372291140A98A49500764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/ContactInfo.nib; sourceTree = "<group>"; };
+		372291150A98A49800764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/ContactInfo.nib; sourceTree = "<group>"; };
+		372291160A98A49A00764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/ContactInfo.nib; sourceTree = "<group>"; };
+		372291170A98A49C00764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/ContactInfo.nib; sourceTree = "<group>"; };
+		372291180A98A4A600764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/ContactListWindow.nib; sourceTree = "<group>"; };
+		372291190A98A4A800764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/ContactListWindow.nib; sourceTree = "<group>"; };
+		3722911A0A98A4AE00764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/ContactListWindow.nib; sourceTree = "<group>"; };
+		3722911B0A98A4B000764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/ContactListWindow.nib; sourceTree = "<group>"; };
+		3722911C0A98A4B200764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/ContactListWindow.nib; sourceTree = "<group>"; };
+		3722911D0A98A4BC00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/ContactStatusMessage.nib; sourceTree = "<group>"; };
+		3722911E0A98A4BE00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/ContactStatusMessage.nib; sourceTree = "<group>"; };
+		3722911F0A98A4C200764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/ContactStatusMessage.nib; sourceTree = "<group>"; };
+		372291200A98A4C400764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/ContactStatusMessage.nib; sourceTree = "<group>"; };
+		372291210A98A4C600764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/ContactStatusMessage.nib; sourceTree = "<group>"; };
+		372291220A98A4CC00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/Dialog.nib; sourceTree = "<group>"; };
+		372291230A98A4CE00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/Dialog.nib; sourceTree = "<group>"; };
+		372291240A98A4D100764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/Dialog.nib; sourceTree = "<group>"; };
+		372291250A98A4D300764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/Dialog.nib; sourceTree = "<group>"; };
+		372291260A98A4D600764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/Dialog.nib; sourceTree = "<group>"; };
+		372291270A98A4DB00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/Find.nib; sourceTree = "<group>"; };
+		372291280A98A4DD00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/Find.nib; sourceTree = "<group>"; };
+		372291290A98A4E000764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/Find.nib; sourceTree = "<group>"; };
+		3722912A0A98A4E200764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/Find.nib; sourceTree = "<group>"; };
+		3722912B0A98A4E500764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/Find.nib; sourceTree = "<group>"; };
+		3722912C0A98A4EA00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/History.nib; sourceTree = "<group>"; };
+		3722912D0A98A4EC00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/History.nib; sourceTree = "<group>"; };
+		3722912E0A98A4EF00764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/History.nib; sourceTree = "<group>"; };
+		3722912F0A98A4F100764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/History.nib; sourceTree = "<group>"; };
+		372291300A98A4F300764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/History.nib; sourceTree = "<group>"; };
+		372291310A98A4F900764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/IncomingMessage.nib; sourceTree = "<group>"; };
+		372291320A98A4FB00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/IncomingMessage.nib; sourceTree = "<group>"; };
+		372291330A98A4FF00764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/IncomingMessage.nib; sourceTree = "<group>"; };
+		372291340A98A50100764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/IncomingMessage.nib; sourceTree = "<group>"; };
+		372291350A98A50300764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/IncomingMessage.nib; sourceTree = "<group>"; };
+		372291360A98A50600764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/IncomingFile.nib; sourceTree = "<group>"; };
+		372291370A98A50800764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/IncomingFile.nib; sourceTree = "<group>"; };
+		372291380A98A50B00764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/IncomingFile.nib; sourceTree = "<group>"; };
+		372291390A98A50D00764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/IncomingFile.nib; sourceTree = "<group>"; };
+		3722913A0A98A51000764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/IncomingFile.nib; sourceTree = "<group>"; };
+		3722913B0A98A51400764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		3722913C0A98A51600764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		3722913D0A98A51A00764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		3722913E0A98A51C00764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		3722913F0A98A51E00764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		372291400A98A52200764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/NetworkProblemAlert.nib; sourceTree = "<group>"; };
+		372291410A98A52400764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/NetworkProblemAlert.nib; sourceTree = "<group>"; };
+		372291420A98A52700764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/NetworkProblemAlert.nib; sourceTree = "<group>"; };
+		372291430A98A52A00764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/NetworkProblemAlert.nib; sourceTree = "<group>"; };
+		372291440A98A52C00764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/NetworkProblemAlert.nib; sourceTree = "<group>"; };
+		372291450A98A53500764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/NewUserAssistant.nib; sourceTree = "<group>"; };
+		372291460A98A53700764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/NewUserAssistant.nib; sourceTree = "<group>"; };
+		372291470A98A53A00764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/NewUserAssistant.nib; sourceTree = "<group>"; };
+		372291480A98A53C00764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/NewUserAssistant.nib; sourceTree = "<group>"; };
+		372291490A98A53E00764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/NewUserAssistant.nib; sourceTree = "<group>"; };
+		3722914A0A98A54100764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/OutgoingAuthReq.nib; sourceTree = "<group>"; };
+		3722914B0A98A54300764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/OutgoingAuthReq.nib; sourceTree = "<group>"; };
+		3722914C0A98A54600764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/OutgoingAuthReq.nib; sourceTree = "<group>"; };
+		3722914D0A98A54800764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/OutgoingAuthReq.nib; sourceTree = "<group>"; };
+		3722914E0A98A54A00764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/OutgoingAuthReq.nib; sourceTree = "<group>"; };
+		3722914F0A98A54D00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/OutgoingFile.nib; sourceTree = "<group>"; };
+		372291500A98A54F00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/OutgoingFile.nib; sourceTree = "<group>"; };
+		372291510A98A55300764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/OutgoingFile.nib; sourceTree = "<group>"; };
+		372291520A98A55500764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/OutgoingFile.nib; sourceTree = "<group>"; };
+		372291530A98A55700764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/OutgoingFile.nib; sourceTree = "<group>"; };
+		372291540A98A55D00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/OutgoingMessage.nib; sourceTree = "<group>"; };
+		372291550A98A56000764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/OutgoingMessage.nib; sourceTree = "<group>"; };
+		372291560A98A56300764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/OutgoingMessage.nib; sourceTree = "<group>"; };
+		372291570A98A56500764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/OutgoingMessage.nib; sourceTree = "<group>"; };
+		372291580A98A56700764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/OutgoingMessage.nib; sourceTree = "<group>"; };
+		372291590A98A56A00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/Preferences.nib; sourceTree = "<group>"; };
+		3722915A0A98A56C00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/Preferences.nib; sourceTree = "<group>"; };
+		3722915B0A98A56F00764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/Preferences.nib; sourceTree = "<group>"; };
+		3722915C0A98A57100764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/Preferences.nib; sourceTree = "<group>"; };
+		3722915D0A98A57400764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/Preferences.nib; sourceTree = "<group>"; };
+		3722915E0A98A57700764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/PasswordSheet.nib; sourceTree = "<group>"; };
+		3722915F0A98A57900764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/PasswordSheet.nib; sourceTree = "<group>"; };
+		372291600A98A57C00764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/PasswordSheet.nib; sourceTree = "<group>"; };
+		372291610A98A57E00764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/PasswordSheet.nib; sourceTree = "<group>"; };
+		372291620A98A58000764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/PasswordSheet.nib; sourceTree = "<group>"; };
+		372291630A98A58300764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/RejectMessage.nib; sourceTree = "<group>"; };
+		372291640A98A58500764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/RejectMessage.nib; sourceTree = "<group>"; };
+		372291650A98A58800764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/RejectMessage.nib; sourceTree = "<group>"; };
+		372291660A98A58A00764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/RejectMessage.nib; sourceTree = "<group>"; };
+		372291670A98A58C00764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/RejectMessage.nib; sourceTree = "<group>"; };
+		372291680A98A59000764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/StatusMessagePanel.nib; sourceTree = "<group>"; };
+		372291690A98A59200764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/StatusMessagePanel.nib; sourceTree = "<group>"; };
+		3722916A0A98A59600764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/StatusMessagePanel.nib; sourceTree = "<group>"; };
+		3722916B0A98A59800764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/StatusMessagePanel.nib; sourceTree = "<group>"; };
+		3722916C0A98A59A00764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/StatusMessagePanel.nib; sourceTree = "<group>"; };
+		3722916D0A98A59D00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/UserDetails.nib; sourceTree = "<group>"; };
+		3722916E0A98A59F00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/UserDetails.nib; sourceTree = "<group>"; };
+		3722916F0A98A5A200764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/UserDetails.nib; sourceTree = "<group>"; };
+		372291700A98A5A400764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/UserDetails.nib; sourceTree = "<group>"; };
+		372291710A98A5A600764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/UserDetails.nib; sourceTree = "<group>"; };
+		372291720A98A5A900764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/UserSettings.nib; sourceTree = "<group>"; };
+		372291730A98A5AC00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/UserSettings.nib; sourceTree = "<group>"; };
+		372291740A98A5B000764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Italian; path = Italian.lproj/UserSettings.nib; sourceTree = "<group>"; };
+		372291750A98A5B200764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = cs; path = cs.lproj/UserSettings.nib; sourceTree = "<group>"; };
+		372291760A98A5B500764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = sv; path = sv.lproj/UserSettings.nib; sourceTree = "<group>"; };
+		372291770A98A5BD00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		372291780A98A5BF00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		372291790A98A5C200764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3722917A0A98A5C400764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3722917B0A98A5C900764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3722917D0A98A5EB00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Abbreviated.strings; sourceTree = "<group>"; };
+		3722917E0A98A5ED00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Abbreviated.strings; sourceTree = "<group>"; };
+		3722917F0A98A5F000764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Abbreviated.strings; sourceTree = "<group>"; };
+		372291800A98A5F300764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Abbreviated.strings; sourceTree = "<group>"; };
+		372291810A98A5F500764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Abbreviated.strings; sourceTree = "<group>"; };
+		372291860A98A62B00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		372291870A98A62D00764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		372291880A98A63100764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Localizable.strings; sourceTree = "<group>"; };
+		372291890A98A63300764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = cs; path = cs.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3722918A0A98A63500764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3722919B0A98A6DA00764F4C /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3722919C0A98A6F200764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = French; path = French.lproj/mitzlogo.tiff; sourceTree = "<group>"; };
+		3722919D0A98A6F500764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = German; path = German.lproj/mitzlogo.tiff; sourceTree = "<group>"; };
+		3722919E0A98A6F800764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Italian; path = Italian.lproj/mitzlogo.tiff; sourceTree = "<group>"; };
+		3722919F0A98A6FA00764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = cs; path = cs.lproj/mitzlogo.tiff; sourceTree = "<group>"; };
+		372291A00A98A6FD00764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = sv; path = sv.lproj/mitzlogo.tiff; sourceTree = "<group>"; };
+		372291A10A98A70300764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = French; path = French.lproj/Countries.plist; sourceTree = "<group>"; };
+		372291A20A98A70500764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = German; path = German.lproj/Countries.plist; sourceTree = "<group>"; };
+		372291A30A98A70800764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Italian; path = Italian.lproj/Countries.plist; sourceTree = "<group>"; };
+		372291A40A98A70A00764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = cs; path = cs.lproj/Countries.plist; sourceTree = "<group>"; };
+		372291A50A98A70D00764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = sv; path = sv.lproj/Countries.plist; sourceTree = "<group>"; };
+		372291A60A98A71100764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = French; path = French.lproj/Sex.plist; sourceTree = "<group>"; };
+		372291A70A98A71300764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = German; path = German.lproj/Sex.plist; sourceTree = "<group>"; };
+		372291A80A98A71600764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Italian; path = Italian.lproj/Sex.plist; sourceTree = "<group>"; };
+		372291A90A98A71900764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = cs; path = cs.lproj/Sex.plist; sourceTree = "<group>"; };
+		372291AA0A98A71B00764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = sv; path = sv.lproj/Sex.plist; sourceTree = "<group>"; };
+		372291AB0A98A71E00764F4C /* French */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = French; path = French.lproj/Languages.plist; sourceTree = "<group>"; };
+		372291AC0A98A72100764F4C /* German */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = German; path = German.lproj/Languages.plist; sourceTree = "<group>"; };
+		372291AD0A98A72400764F4C /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Italian; path = Italian.lproj/Languages.plist; sourceTree = "<group>"; };
+		372291AE0A98A72600764F4C /* cs */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = cs; path = cs.lproj/Languages.plist; sourceTree = "<group>"; };
+		372291AF0A98A72800764F4C /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = sv; path = sv.lproj/Languages.plist; sourceTree = "<group>"; };
+		3722AC8805BDB42500228324 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AboutPanel.nib; sourceTree = "<group>"; };
+		3722ACBD05BDBA1700228324 /* AboutPanelController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AboutPanelController.h; sourceTree = "<group>"; };
+		3722ACBE05BDBA1700228324 /* AboutPanelController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AboutPanelController.m; sourceTree = "<group>"; };
+		373250FC05C2B2D9004943AE /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.html; name = English; path = English.lproj/acknowledgments.html; sourceTree = "<group>"; };
+		3732510105C2B4A0004943AE /* English */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = English; path = English.lproj/mitzlogo.tiff; sourceTree = "<group>"; };
+		373DB1EA03C4C36E00000005 /* NSWindowController-ICJAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindowController-ICJAdditions.h"; sourceTree = "<group>"; };
+		373DB1EB03C4C36E00000005 /* NSWindowController-ICJAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindowController-ICJAdditions.m"; sourceTree = "<group>"; };
+		37704EBA056BCAA700788C5E /* History.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = History.h; sourceTree = "<group>"; };
+		37704EBB056BCAA700788C5E /* History.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = History.m; sourceTree = "<group>"; };
+		3772F7F00A979F3500CA2792 /* libicq2000.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = libicq2000.xcodeproj; sourceTree = "<group>"; };
+		37B04DF6059DE840005089C5 /* Info-Icy_Juice.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-Icy_Juice.plist"; sourceTree = "<group>"; };
+		37B04DF7059DE840005089C5 /* Icy Juice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Icy Juice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BD3A34056294FA00201A11 /* ICQFileTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICQFileTransfer.h; sourceTree = "<group>"; };
+		37BD3A35056294FA00201A11 /* ICQFileTransfer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ICQFileTransfer.mm; sourceTree = "<group>"; };
+		37BD3A380562DC2300201A11 /* fileTransferGlue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = fileTransferGlue.h; sourceTree = "<group>"; };
+		37C569BD048FCD0200000005 /* ContactTree.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContactTree.h; sourceTree = "<group>"; };
+		37C569BE048FCD0200000005 /* sigslot.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sigslot.h; sourceTree = "<group>"; };
+		37CF9B6805B957A900E0F0E2 /* caution.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = caution.tif; sourceTree = "<group>"; };
+		37CF9C4905B96BA800E0F0E2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/NetworkProblemAlert.nib; sourceTree = "<group>"; };
+		37CF9C5705B96BEE00E0F0E2 /* NetworkProblemAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkProblemAlert.h; sourceTree = "<group>"; };
+		37CF9C5805B96BEE00E0F0E2 /* NetworkProblemAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkProblemAlert.m; sourceTree = "<group>"; };
+		37D4D65E0565219500168003 /* IncomingFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IncomingFileController.h; sourceTree = "<group>"; };
+		37D4D65F0565219500168003 /* IncomingFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IncomingFileController.m; sourceTree = "<group>"; };
+		37D4D6620565249D00168003 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/IncomingFile.nib; sourceTree = "<group>"; };
+		37F64EB404BAF05E00000005 /* FileTransferClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FileTransferClient.h; path = libicq2000/src/FileTransferClient.h; sourceTree = SOURCE_ROOT; };
+		37FFA4A405C1181400A11145 /* IcyJuice.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IcyJuice.pch; sourceTree = "<group>"; };
+		F501E9DE00E507D201000001 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/IncomingMessage.nib; sourceTree = "<group>"; };
+		F501E9E000E5083801000001 /* IncomingMessageController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = IncomingMessageController.h; sourceTree = "<group>"; };
+		F501E9E100E5083801000001 /* IncomingMessageController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = IncomingMessageController.m; sourceTree = "<group>"; };
+		F501E9E400E5086101000001 /* ICQMessage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ICQMessage.h; sourceTree = "<group>"; };
+		F501E9E500E5086101000001 /* ICQMessage.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ICQMessage.m; sourceTree = "<group>"; };
+		F51231600305452E01000005 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		F513A76702CDFB8B01000005 /* ICJDocumentController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ICJDocumentController.m; sourceTree = "<group>"; };
+		F513A76802CDFB8B01000005 /* ICJDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ICJDocumentController.h; sourceTree = "<group>"; };
+		F521CED203BCA83701000005 /* NSColor-MPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSColor-MPAdditions.h"; sourceTree = "<group>"; };
+		F521CED303BCA83701000005 /* NSColor-MPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSColor-MPAdditions.m"; sourceTree = "<group>"; };
+		F5222D5D01AEA7EF01E5C83F /* Incoming.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Incoming.aiff; sourceTree = "<group>"; };
+		F5226B9201C0C05801AA27BB /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Preferences.nib; sourceTree = "<group>"; };
+		F5226B9401C0C36101AA27BB /* PreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PreferencesWindowController.h; sourceTree = "<group>"; };
+		F5226B9501C0C36101AA27BB /* PreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindowController.m; sourceTree = "<group>"; };
+		F5226BA101C1296901AA27BB /* DockMenuTrampoline.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DockMenuTrampoline.h; sourceTree = "<group>"; };
+		F5226BA201C1296901AA27BB /* DockMenuTrampoline.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DockMenuTrampoline.m; sourceTree = "<group>"; };
+		F52371A901B7931A01FBB7D0 /* UserSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UserSettingsController.h; sourceTree = "<group>"; };
+		F52371AA01B7931A01FBB7D0 /* UserSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = UserSettingsController.m; sourceTree = "<group>"; };
+		F5248030025AF12A01C7BBC6 /* ICJMessage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ICJMessage.h; sourceTree = "<group>"; };
+		F5248031025AF12A01C7BBC6 /* ICJMessage.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ICJMessage.m; sourceTree = "<group>"; };
+		F525CC8C020BFBBA01C7BC65 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = English; path = English.lproj/Languages.plist; sourceTree = "<group>"; };
+		F52751DF01AE478601923D5B /* empty glass.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "empty glass.tiff"; sourceTree = "<group>"; };
+		F52751E001AE478601923D5B /* full glass glowing.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "full glass glowing.tiff"; sourceTree = "<group>"; };
+		F52751E101AE478601923D5B /* fullglass.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = fullglass.icns; sourceTree = "<group>"; };
+		F52751E201AE478601923D5B /* full glass.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "full glass.tiff"; sourceTree = "<group>"; };
+		F52A1D890222681B01C7BB65 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/StatusMessagePanel.nib; sourceTree = "<group>"; };
+		F52AD37201B8C59F01264421 /* DialogController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DialogController.h; sourceTree = "<group>"; };
+		F52AD37301B8C59F01264421 /* DialogController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = DialogController.m; sourceTree = "<group>"; };
+		F52FA8A801F0C44F01000004 /* saved history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saved history.png"; sourceTree = "<group>"; };
+		F5320DE3027095C001000005 /* LibContactRef.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LibContactRef.h; sourceTree = "<group>"; };
+		F5320DE4027095C001000005 /* LibContactRef.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = LibContactRef.mm; sourceTree = "<group>"; };
+		F533336C0343317801000005 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		F53370DD0223C9E101C7BB16 /* StatusMessageSheetController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StatusMessageSheetController.h; sourceTree = "<group>"; };
+		F53370DE0223C9E101C7BB16 /* StatusMessageSheetController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = StatusMessageSheetController.m; sourceTree = "<group>"; };
+		F534F0390241F19701C7BC3B /* NSString-MPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSString-MPAdditions.h"; sourceTree = "<group>"; };
+		F534F03A0241F19701C7BC3B /* NSString-MPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSString-MPAdditions.m"; sourceTree = "<group>"; };
+		F53A86A101BB9CE3010A35E4 /* ICJHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ICJHistoryCell.h; sourceTree = "<group>"; };
+		F53B4BC501DDF54601C7BBD6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/UserDetails.nib; sourceTree = "<group>"; };
+		F53B4BC701DDF70B01C7BBD6 /* UserDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UserDetailsController.h; sourceTree = "<group>"; };
+		F53B4BC801DDF70B01C7BBD6 /* UserDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = UserDetailsController.m; sourceTree = "<group>"; };
+		F54251B2024227A501C7BC3B /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Abbreviated.strings; sourceTree = "<group>"; };
+		F5434EBE019BF1D2013DA7B5 /* icq2000glue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = icq2000glue.h; sourceTree = "<group>"; };
+		F543A0E801A541CE014AFF99 /* NewUserAssistant.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = NewUserAssistant.h; sourceTree = "<group>"; };
+		F543A0E901A541CE014AFF99 /* NewUserAssistant.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = NewUserAssistant.m; sourceTree = "<group>"; };
+		F543A0EC01A544B3014AFF99 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/NewUserAssistant.nib; sourceTree = "<group>"; };
+		F543DA5F01A3DB0C0139EB9B /* ICQUserDocument.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ICQUserDocument.m; sourceTree = "<group>"; };
+		F543DA6001A3DB0C0139EB9B /* ICQUserDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ICQUserDocument.h; sourceTree = "<group>"; };
+		F543DA6C01A407BD0139EB9B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ContactListWindow.nib; sourceTree = "<group>"; };
+		F543DA6E01A408290139EB9B /* ContactListWindowController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ContactListWindowController.m; sourceTree = "<group>"; };
+		F543DA6F01A408290139EB9B /* ContactListWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContactListWindowController.h; sourceTree = "<group>"; };
+		F545CE6B0232C06B01000001 /* NSDate-MPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSDate-MPAdditions.h"; sourceTree = "<group>"; };
+		F545CE6C0232C06B01000001 /* NSDate-MPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSDate-MPAdditions.m"; sourceTree = "<group>"; };
+		F548876101A1861F01F115B0 /* Translator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Translator.h; sourceTree = "<group>"; };
+		F54D1B33019ADE160128951A /* OutgoingMessageController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OutgoingMessageController.h; sourceTree = "<group>"; };
+		F54D1B34019ADE160128951A /* OutgoingMessageController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OutgoingMessageController.m; sourceTree = "<group>"; };
+		F54D1B39019AE2650128951A /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/OutgoingMessage.nib; sourceTree = "<group>"; };
+		F54DE3240255EDBB01000002 /* ref_ptr.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ref_ptr.h; sourceTree = "<group>"; };
+		F5502931023A0ADC01C7BBF4 /* MPStatusBarController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MPStatusBarController.h; sourceTree = "<group>"; };
+		F5502932023A0ADC01C7BBF4 /* MPStatusBarController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MPStatusBarController.m; sourceTree = "<group>"; };
+		F551529C022EE91C01000001 /* ContactStatusMessageController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ContactStatusMessageController.m; sourceTree = "<group>"; };
+		F551529D022EE91C01000001 /* ContactStatusMessageController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContactStatusMessageController.h; sourceTree = "<group>"; };
+		F553490901A91D31018B1338 /* Delete.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Delete.tiff; sourceTree = "<group>"; };
+		F556A38301CFCA2901C80101 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = English; path = English.lproj/Countries.plist; sourceTree = "<group>"; };
+		F556A38501CFCA2901C80101 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = English; path = English.lproj/Sex.plist; sourceTree = "<group>"; };
+		F557AD2401B6E4E5013C4CD2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/UserSettings.nib; sourceTree = "<group>"; };
+		F55A3132019FBF5201326601 /* userinfoconstants.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = userinfoconstants.h; sourceTree = "<group>"; };
+		F562112B01A511A60133A8F1 /* ContactList.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ContactList.icns; sourceTree = "<group>"; };
+		F562113301A51AC90133A8F1 /* EnterTextView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = EnterTextView.h; sourceTree = "<group>"; };
+		F562113401A51AC90133A8F1 /* EnterTextView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = EnterTextView.m; sourceTree = "<group>"; };
+		F562113A01A524FE0133A8F1 /* ChasingArrowsView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ChasingArrowsView.h; sourceTree = "<group>"; };
+		F562113B01A524FE0133A8F1 /* ChasingArrowsView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ChasingArrowsView.m; sourceTree = "<group>"; };
+		F56472BF029A94B501000005 /* NSSound-MPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = "NSSound-MPAdditions.m"; sourceTree = "<group>"; };
+		F56472C0029A94B501000005 /* NSSound-MPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "NSSound-MPAdditions.h"; sourceTree = "<group>"; };
+		F56512A9020165CD01C7BB97 /* forward arrow.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "forward arrow.tiff"; sourceTree = "<group>"; };
+		F56512AB020166F401C7BB97 /* envelope.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = envelope.tiff; sourceTree = "<group>"; };
+		F56512AE0201739201C7BB97 /* reply envelope.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "reply envelope.tiff"; sourceTree = "<group>"; };
+		F565F9B801AEF0AE01D064AC /* ICJStatusIconCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ICJStatusIconCell.h; sourceTree = "<group>"; };
+		F565F9B901AEF0AE01D064AC /* ICJStatusIconCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ICJStatusIconCell.m; sourceTree = "<group>"; };
+		F567BE1403168A9801000005 /* ScreenSaverPrivate.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ScreenSaverPrivate.h; sourceTree = "<group>"; };
+		F567BE1603168AC501000005 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		F56DBF1F026CB9DE01000005 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/OutgoingAuthReq.nib; sourceTree = "<group>"; };
+		F56DBF21026CBF1101000005 /* OutgoingAuthReqController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = OutgoingAuthReqController.h; sourceTree = "<group>"; };
+		F56DBF22026CBF1101000005 /* OutgoingAuthReqController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = OutgoingAuthReqController.m; sourceTree = "<group>"; };
+		F56FF53A01D4F3E801C80101 /* Clean.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Clean.tiff; sourceTree = "<group>"; };
+		F576BACF01B81A99017BAC93 /* HistoryView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HistoryView.h; sourceTree = "<group>"; };
+		F576BAD001B81A99017BAC93 /* HistoryView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = HistoryView.m; sourceTree = "<group>"; };
+		F576BAD401B81C82017BAC93 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/History.nib; sourceTree = "<group>"; };
+		F576BADF01B83EBA017BAC93 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Dialog.nib; sourceTree = "<group>"; };
+		F5779BBA033BD1F501000005 /* MPUserActivityMonitor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MPUserActivityMonitor.h; sourceTree = "<group>"; };
+		F5779BBB033BD1F501000005 /* MPUserActivityMonitor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MPUserActivityMonitor.m; sourceTree = "<group>"; };
+		F57D52D40306B5DA01000005 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		F58806E001FC9ED701C7BBA4 /* history book.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "history book.tiff"; sourceTree = "<group>"; };
+		F58806E201FC9F0201C7BBA4 /* add to contact list.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "add to contact list.tiff"; sourceTree = "<group>"; };
+		F58806E801FCA70701C7BBA4 /* recipients.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = recipients.tiff; sourceTree = "<group>"; };
+		F5979A1301B195AC01738FB8 /* ChasingArrows.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = ChasingArrows.tif; sourceTree = "<group>"; };
+		F5997FC70279908B01000005 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/RejectMessage.nib; sourceTree = "<group>"; };
+		F5A4E0FB022D5CF701C7BB33 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ContactStatusMessage.nib; sourceTree = "<group>"; };
+		F5A9D5A901AFDA7201B77B7E /* message.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = message.tiff; sourceTree = "<group>"; };
+		F5AB084A01AE77E501FBD877 /* IcyJuice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = IcyJuice.h; sourceTree = "<group>"; };
+		F5AD42E603360C7601000005 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F5B825A101D281F801C80101 /* HistoryWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HistoryWindowController.h; sourceTree = "<group>"; };
+		F5B825A201D281F801C80101 /* HistoryWindowController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = HistoryWindowController.m; sourceTree = "<group>"; };
+		F5BEB57601AC5C6C017C3DF8 /* Contact away.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Contact away.tiff"; sourceTree = "<group>"; };
+		F5BEB57701AC5C6C017C3DF8 /* Contact DND.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Contact DND.tiff"; sourceTree = "<group>"; };
+		F5BEB57801AC5C6C017C3DF8 /* Contact invisible.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Contact invisible.tiff"; sourceTree = "<group>"; };
+		F5BEB57901AC5C6C017C3DF8 /* Contact NA.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Contact NA.tiff"; sourceTree = "<group>"; };
+		F5BEB57A01AC5C6C017C3DF8 /* Contact occupied.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Contact occupied.tiff"; sourceTree = "<group>"; };
+		F5BEB57B01AC5C6C017C3DF8 /* Contact online.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Contact online.tiff"; sourceTree = "<group>"; };
+		F5BEB57C01AC5C6C017C3DF8 /* offline.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = offline.tiff; sourceTree = "<group>"; };
+		F5C08D72025DF48001C7BC6C /* Contact pending authorization.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Contact pending authorization.tif"; sourceTree = "<group>"; };
+		F5C469CD023A47B401C7BBF4 /* Multiple.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Multiple.tiff; sourceTree = "<group>"; };
+		F5CC690D021AA12D01DA618A /* MPURLTextField.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MPURLTextField.h; sourceTree = "<group>"; };
+		F5CC690E021AA12D01DA618A /* MPURLTextField.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MPURLTextField.m; sourceTree = "<group>"; };
+		F5CC691B021AB26A01DA618A /* MPURLTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MPURLTextFieldCell.h; sourceTree = "<group>"; };
+		F5CC691C021AB26A01DA618A /* MPURLTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MPURLTextFieldCell.m; sourceTree = "<group>"; };
+		F5CD2F5F01D29AE401C80101 /* ContactPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContactPlaceholder.h; sourceTree = "<group>"; };
+		F5CD2F6001D29AE401C80101 /* ContactPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ContactPlaceholder.m; sourceTree = "<group>"; };
+		F5DFD4C0019428A001A3FD95 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		F5DFD4C1019428A001A3FD95 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		F5DFD4C3019428A001A3FD95 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		F5DFD4C5019428A001A3FD95 /* ContactList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
+		F5DFD4C8019428A001A3FD95 /* events.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = events.h; sourceTree = "<group>"; };
+		F5DFD4CA019428A001A3FD95 /* exceptions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = exceptions.h; sourceTree = "<group>"; };
+		F5EB10F10243A2B701C7BC3F /* status bar envelope.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "status bar envelope.tiff"; sourceTree = "<group>"; };
+		F5EB10F30243A5BB01C7BC3F /* status bar envelope pushed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "status bar envelope pushed.tiff"; sourceTree = "<group>"; };
+		F5FB747601F758EF01000001 /* user info.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "user info.tiff"; sourceTree = "<group>"; };
+		F5FF224C0231932501000001 /* time_extra.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = time_extra.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37B04DEE059DE840005089C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B04DEF059DE840005089C5 /* Cocoa.framework in Frameworks */,
+				37B04DF0059DE840005089C5 /* IOKit.framework in Frameworks */,
+				37B04DF1059DE840005089C5 /* ScreenSaver.framework in Frameworks */,
+				37B04DF2059DE840005089C5 /* Carbon.framework in Frameworks */,
+				37B04DF3059DE840005089C5 /* SystemConfiguration.framework in Frameworks */,
+				375F33CA0A97B97D0002D668 /* libicq2000.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F572502701A24ACF017D18A4 /* Headers */,
+				F599535602963CBC01000005 /* Model */,
+				F599535702963CC401000005 /* View */,
+				F599535802963CC801000005 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				F567BE1603168AC501000005 /* ScreenSaver.framework */,
+				F51231600305452E01000005 /* IOKit.framework */,
+				F5AD42E603360C7601000005 /* Carbon.framework */,
+				F533336C0343317801000005 /* SystemConfiguration.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00FFBE0B00C811027F000001 /* CoreFoundation.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				F57D52D40306B5DA01000005 /* SystemConfiguration.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37B04DF7059DE840005089C5 /* Icy Juice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* IcyJuice */ = {
+			isa = PBXGroup;
+			children = (
+				3772F7F00A979F3500CA2792 /* libicq2000.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				F5472F8201D47D7901C80101 /* libicq2000 */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				37B04DF6059DE840005089C5 /* Info-Icy_Juice.plist */,
+			);
+			name = IcyJuice;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				373250FB05C2B2D9004943AE /* acknowledgments.html */,
+				37CF9B6805B957A900E0F0E2 /* caution.tif */,
+				F5979A1301B195AC01738FB8 /* ChasingArrows.tif */,
+				3722AC8705BDB42500228324 /* AboutPanel.nib */,
+				0104A74D00CEB0F77F000001 /* ContactInfo.nib */,
+				F543DA6B01A407BD0139EB9B /* ContactListWindow.nib */,
+				F5A4E0FA022D5CF701C7BB33 /* ContactStatusMessage.nib */,
+				F576BADE01B83EBA017BAC93 /* Dialog.nib */,
+				03D53D9100CADE257F000001 /* Find.nib */,
+				F576BAD301B81C82017BAC93 /* History.nib */,
+				F501E9DD00E507D201000001 /* IncomingMessage.nib */,
+				37D4D664056524AC00168003 /* IncomingFile.nib */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				37CF9C4805B96BA800E0F0E2 /* NetworkProblemAlert.nib */,
+				F543A0EE01A548E8014AFF99 /* NewUserAssistant.nib */,
+				F56DBF1E026CB9DE01000005 /* OutgoingAuthReq.nib */,
+				37058ABE04A469C100000005 /* OutgoingFile.nib */,
+				F54D1B38019AE2650128951A /* OutgoingMessage.nib */,
+				F5226B9101C0C05801AA27BB /* Preferences.nib */,
+				014AB67400D6B1D07F000001 /* PasswordSheet.nib */,
+				F5997FC60279908B01000005 /* RejectMessage.nib */,
+				F52A1D880222681B01C7BB65 /* StatusMessagePanel.nib */,
+				F53B4BC401DDF54601C7BBD6 /* UserDetails.nib */,
+				F557AD2301B6E4E5013C4CD2 /* UserSettings.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				F5AB084C01AE84B101FBD877 /* Localizable.strings */,
+				F54251B1024227A501C7BC3B /* Abbreviated.strings */,
+				F562112B01A511A60133A8F1 /* ContactList.icns */,
+				F553490901A91D31018B1338 /* Delete.tiff */,
+				F5BEB57601AC5C6C017C3DF8 /* Contact away.tiff */,
+				F5BEB57701AC5C6C017C3DF8 /* Contact DND.tiff */,
+				F5BEB57801AC5C6C017C3DF8 /* Contact invisible.tiff */,
+				F5BEB57901AC5C6C017C3DF8 /* Contact NA.tiff */,
+				F5BEB57A01AC5C6C017C3DF8 /* Contact occupied.tiff */,
+				F5BEB57B01AC5C6C017C3DF8 /* Contact online.tiff */,
+				F5C08D72025DF48001C7BC6C /* Contact pending authorization.tif */,
+				F5C469CD023A47B401C7BBF4 /* Multiple.tiff */,
+				F56FF53A01D4F3E801C80101 /* Clean.tiff */,
+				F5BEB57C01AC5C6C017C3DF8 /* offline.tiff */,
+				F52751DF01AE478601923D5B /* empty glass.tiff */,
+				F52751E001AE478601923D5B /* full glass glowing.tiff */,
+				F52751E101AE478601923D5B /* fullglass.icns */,
+				F52751E201AE478601923D5B /* full glass.tiff */,
+				F5222D5D01AEA7EF01E5C83F /* Incoming.aiff */,
+				3732510305C2B4BC004943AE /* mitzlogo.tiff */,
+				F5A9D5A901AFDA7201B77B7E /* message.tiff */,
+				F556A38201CFCA2901C80101 /* Countries.plist */,
+				F556A38401CFCA2901C80101 /* Sex.plist */,
+				F525CC8B020BFBBA01C7BC65 /* Languages.plist */,
+				F52FA8A801F0C44F01000004 /* saved history.png */,
+				F5FB747601F758EF01000001 /* user info.tiff */,
+				F58806E001FC9ED701C7BBA4 /* history book.tiff */,
+				F58806E201FC9F0201C7BBA4 /* add to contact list.tiff */,
+				F56512AE0201739201C7BB97 /* reply envelope.tiff */,
+				F58806E801FCA70701C7BBA4 /* recipients.tiff */,
+				F56512A9020165CD01C7BB97 /* forward arrow.tiff */,
+				F56512AB020166F401C7BB97 /* envelope.tiff */,
+				F5EB10F10243A2B701C7BC3F /* status bar envelope.tiff */,
+				F5EB10F30243A5BB01C7BC3F /* status bar envelope pushed.tiff */,
+			);
+			name = Resources;
+			path = BundleResources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3772F7F10A979F3500CA2792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3772F7F80A979F3500CA2792 /* libicq2000.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5472F8201D47D7901C80101 /* libicq2000 */ = {
+			isa = PBXGroup;
+			children = (
+				37164A7A066767F50059A03D /* Capabilities.h */,
+				F5DFD4C0019428A001A3FD95 /* Client.h */,
+				F5DFD4C1019428A001A3FD95 /* constants.h */,
+				F5DFD4C3019428A001A3FD95 /* Contact.h */,
+				F5DFD4C5019428A001A3FD95 /* ContactList.h */,
+				F5DFD4C8019428A001A3FD95 /* events.h */,
+				F5DFD4CA019428A001A3FD95 /* exceptions.h */,
+				F55A3132019FBF5201326601 /* userinfoconstants.h */,
+				F548876101A1861F01F115B0 /* Translator.h */,
+				F5FF224C0231932501000001 /* time_extra.h */,
+				F54DE3240255EDBB01000002 /* ref_ptr.h */,
+				37C569BD048FCD0200000005 /* ContactTree.h */,
+				37C569BE048FCD0200000005 /* sigslot.h */,
+				37F64EB404BAF05E00000005 /* FileTransferClient.h */,
+			);
+			name = libicq2000;
+			path = libicq2000/libicq2000;
+			sourceTree = "<group>";
+		};
+		F572502701A24ACF017D18A4 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3722ACBD05BDBA1700228324 /* AboutPanelController.h */,
+				37CF9C5705B96BEE00E0F0E2 /* NetworkProblemAlert.h */,
+				F562113A01A524FE0133A8F1 /* ChasingArrowsView.h */,
+				01FA388500C58FEF7F000001 /* Contact.h */,
+				0104A74F00CEBD347F000001 /* ContactInfoController.h */,
+				01135AFE00C6F8BC7F000001 /* ContactList.h */,
+				01FA387F00C58F4C7F000001 /* ContactListView.h */,
+				F543DA6F01A408290139EB9B /* ContactListWindowController.h */,
+				F5CD2F5F01D29AE401C80101 /* ContactPlaceholder.h */,
+				0101E36900C794977F000001 /* ContactStatus.h */,
+				F551529D022EE91C01000001 /* ContactStatusMessageController.h */,
+				F52AD37201B8C59F01264421 /* DialogController.h */,
+				F5226BA101C1296901AA27BB /* DockMenuTrampoline.h */,
+				F562113301A51AC90133A8F1 /* EnterTextView.h */,
+				00FE1DE600CB74117F000001 /* FindController.h */,
+				37704EBA056BCAA700788C5E /* History.h */,
+				F576BACF01B81A99017BAC93 /* HistoryView.h */,
+				F5B825A101D281F801C80101 /* HistoryWindowController.h */,
+				F513A76802CDFB8B01000005 /* ICJDocumentController.h */,
+				F53A86A101BB9CE3010A35E4 /* ICJHistoryCell.h */,
+				F5248030025AF12A01C7BBC6 /* ICJMessage.h */,
+				F565F9B801AEF0AE01D064AC /* ICJStatusIconCell.h */,
+				0ABAAABA00C7C3367F000001 /* ICQConnection.h */,
+				37BD3A34056294FA00201A11 /* ICQFileTransfer.h */,
+				F501E9E400E5086101000001 /* ICQMessage.h */,
+				F543DA6001A3DB0C0139EB9B /* ICQUserDocument.h */,
+				F5AB084A01AE77E501FBD877 /* IcyJuice.h */,
+				37D4D65E0565219500168003 /* IncomingFileController.h */,
+				F501E9E000E5083801000001 /* IncomingMessageController.h */,
+				F5320DE3027095C001000005 /* LibContactRef.h */,
+				F5502931023A0ADC01C7BBF4 /* MPStatusBarController.h */,
+				F5CC690D021AA12D01DA618A /* MPURLTextField.h */,
+				F5CC691B021AB26A01DA618A /* MPURLTextFieldCell.h */,
+				F5779BBA033BD1F501000005 /* MPUserActivityMonitor.h */,
+				00FDB0C400C578C17F000001 /* MainController.h */,
+				F521CED203BCA83701000005 /* NSColor-MPAdditions.h */,
+				F545CE6B0232C06B01000001 /* NSDate-MPAdditions.h */,
+				F56472C0029A94B501000005 /* NSSound-MPAdditions.h */,
+				F534F0390241F19701C7BC3B /* NSString-MPAdditions.h */,
+				F543A0E801A541CE014AFF99 /* NewUserAssistant.h */,
+				F56DBF21026CBF1101000005 /* OutgoingAuthReqController.h */,
+				37058ABA04A4689100000005 /* OutgoingFileController.h */,
+				F54D1B33019ADE160128951A /* OutgoingMessageController.h */,
+				014AB67700D6B2017F000001 /* PasswordSheetController.h */,
+				F5226B9401C0C36101AA27BB /* PreferencesWindowController.h */,
+				F567BE1403168A9801000005 /* ScreenSaverPrivate.h */,
+				F53370DD0223C9E101C7BB16 /* StatusMessageSheetController.h */,
+				00E9384400CAB7277F000001 /* User.h */,
+				F53B4BC701DDF70B01C7BBD6 /* UserDetailsController.h */,
+				F52371A901B7931A01FBB7D0 /* UserSettingsController.h */,
+				F5434EBE019BF1D2013DA7B5 /* icq2000glue.h */,
+				37BD3A380562DC2300201A11 /* fileTransferGlue.h */,
+				373DB1EA03C4C36E00000005 /* NSWindowController-ICJAdditions.h */,
+				37FFA4A405C1181400A11145 /* IcyJuice.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		F599535602963CBC01000005 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37704EBB056BCAA700788C5E /* History.m */,
+				01FA388600C58FEF7F000001 /* Contact.m */,
+				01135AFF00C6F8BC7F000001 /* ContactList.m */,
+				F5CD2F6001D29AE401C80101 /* ContactPlaceholder.m */,
+				0101E36A00C794977F000001 /* ContactStatus.m */,
+				F5248031025AF12A01C7BBC6 /* ICJMessage.m */,
+				37BD3A35056294FA00201A11 /* ICQFileTransfer.mm */,
+				F501E9E500E5086101000001 /* ICQMessage.m */,
+				F5320DE4027095C001000005 /* LibContactRef.mm */,
+				F521CED303BCA83701000005 /* NSColor-MPAdditions.m */,
+				F545CE6C0232C06B01000001 /* NSDate-MPAdditions.m */,
+				F56472BF029A94B501000005 /* NSSound-MPAdditions.m */,
+				F534F03A0241F19701C7BC3B /* NSString-MPAdditions.m */,
+				00E9384500CAB7277F000001 /* User.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F599535702963CC401000005 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F562113B01A524FE0133A8F1 /* ChasingArrowsView.m */,
+				01FA388000C58F4C7F000001 /* ContactListView.m */,
+				F562113401A51AC90133A8F1 /* EnterTextView.m */,
+				F576BAD001B81A99017BAC93 /* HistoryView.m */,
+				F565F9B901AEF0AE01D064AC /* ICJStatusIconCell.m */,
+				F5CC690E021AA12D01DA618A /* MPURLTextField.m */,
+				F5CC691C021AB26A01DA618A /* MPURLTextFieldCell.m */,
+				373DB1EB03C4C36E00000005 /* NSWindowController-ICJAdditions.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F599535802963CC801000005 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3722ACBE05BDBA1700228324 /* AboutPanelController.m */,
+				0104A75000CEBD347F000001 /* ContactInfoController.m */,
+				F543DA6E01A408290139EB9B /* ContactListWindowController.m */,
+				F551529C022EE91C01000001 /* ContactStatusMessageController.m */,
+				F52AD37301B8C59F01264421 /* DialogController.m */,
+				F5226BA201C1296901AA27BB /* DockMenuTrampoline.m */,
+				00FE1DE500CB74117F000001 /* FindController.m */,
+				F5B825A201D281F801C80101 /* HistoryWindowController.m */,
+				F513A76702CDFB8B01000005 /* ICJDocumentController.m */,
+				0ABAAABB00C7C3367F000001 /* ICQConnection.mm */,
+				F543DA5F01A3DB0C0139EB9B /* ICQUserDocument.m */,
+				37D4D65F0565219500168003 /* IncomingFileController.m */,
+				F501E9E100E5083801000001 /* IncomingMessageController.m */,
+				F5502932023A0ADC01C7BBF4 /* MPStatusBarController.m */,
+				F5779BBB033BD1F501000005 /* MPUserActivityMonitor.m */,
+				00FDB0C500C578C17F000001 /* MainController.m */,
+				F543A0E901A541CE014AFF99 /* NewUserAssistant.m */,
+				F56DBF22026CBF1101000005 /* OutgoingAuthReqController.m */,
+				37058ABB04A4689100000005 /* OutgoingFileController.m */,
+				F54D1B34019ADE160128951A /* OutgoingMessageController.m */,
+				014AB67800D6B2017F000001 /* PasswordSheetController.m */,
+				F5226B9501C0C36101AA27BB /* PreferencesWindowController.m */,
+				F53370DE0223C9E101C7BB16 /* StatusMessageSheetController.m */,
+				F53B4BC801DDF70B01C7BBD6 /* UserDetailsController.m */,
+				F52371AA01B7931A01FBB7D0 /* UserSettingsController.m */,
+				37CF9C5805B96BEE00E0F0E2 /* NetworkProblemAlert.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37B04D52059DE840005089C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3749922405CA8EA600639B72 /* IcyJuice.pch in Headers */,
+				37B04D53059DE840005089C5 /* MainController.h in Headers */,
+				37B04D54059DE840005089C5 /* ContactListView.h in Headers */,
+				37B04D55059DE840005089C5 /* Contact.h in Headers */,
+				37B04D56059DE840005089C5 /* ContactStatus.h in Headers */,
+				37B04D57059DE840005089C5 /* ICQConnection.h in Headers */,
+				37B04D58059DE840005089C5 /* User.h in Headers */,
+				37B04D59059DE840005089C5 /* FindController.h in Headers */,
+				37B04D5A059DE840005089C5 /* ContactInfoController.h in Headers */,
+				37B04D5B059DE840005089C5 /* ContactList.h in Headers */,
+				37B04D5C059DE840005089C5 /* PasswordSheetController.h in Headers */,
+				37B04D5D059DE840005089C5 /* IncomingMessageController.h in Headers */,
+				37B04D5E059DE840005089C5 /* Client.h in Headers */,
+				37B04D5F059DE840005089C5 /* OutgoingMessageController.h in Headers */,
+				37B04D60059DE840005089C5 /* icq2000glue.h in Headers */,
+				37B04D61059DE840005089C5 /* ICQUserDocument.h in Headers */,
+				37B04D62059DE840005089C5 /* ContactListWindowController.h in Headers */,
+				37B04D63059DE840005089C5 /* EnterTextView.h in Headers */,
+				37B04D64059DE840005089C5 /* NewUserAssistant.h in Headers */,
+				37B04D65059DE840005089C5 /* IcyJuice.h in Headers */,
+				37B04D66059DE840005089C5 /* ICJStatusIconCell.h in Headers */,
+				37B04D67059DE840005089C5 /* UserSettingsController.h in Headers */,
+				37B04D68059DE840005089C5 /* HistoryView.h in Headers */,
+				37B04D69059DE840005089C5 /* PreferencesWindowController.h in Headers */,
+				37B04D6A059DE840005089C5 /* DockMenuTrampoline.h in Headers */,
+				37B04D6B059DE840005089C5 /* HistoryWindowController.h in Headers */,
+				37B04D6C059DE840005089C5 /* ContactPlaceholder.h in Headers */,
+				37B04D6D059DE840005089C5 /* UserDetailsController.h in Headers */,
+				37B04D6E059DE840005089C5 /* MPURLTextField.h in Headers */,
+				37B04D6F059DE840005089C5 /* MPURLTextFieldCell.h in Headers */,
+				37B04D70059DE840005089C5 /* StatusMessageSheetController.h in Headers */,
+				37B04D71059DE840005089C5 /* ContactStatusMessageController.h in Headers */,
+				37B04D72059DE840005089C5 /* NSDate-MPAdditions.h in Headers */,
+				37B04D73059DE840005089C5 /* MPStatusBarController.h in Headers */,
+				37B04D74059DE840005089C5 /* NSString-MPAdditions.h in Headers */,
+				37B04D75059DE840005089C5 /* ICJMessage.h in Headers */,
+				37B04D76059DE840005089C5 /* ICQMessage.h in Headers */,
+				37B04D77059DE840005089C5 /* OutgoingAuthReqController.h in Headers */,
+				37B04D78059DE840005089C5 /* LibContactRef.h in Headers */,
+				37B04D79059DE840005089C5 /* NSSound-MPAdditions.h in Headers */,
+				37B04D7A059DE840005089C5 /* ICJDocumentController.h in Headers */,
+				37B04D7B059DE840005089C5 /* ScreenSaverPrivate.h in Headers */,
+				37B04D7C059DE840005089C5 /* MPUserActivityMonitor.h in Headers */,
+				37B04D7D059DE840005089C5 /* NSColor-MPAdditions.h in Headers */,
+				37B04D7E059DE840005089C5 /* NSWindowController-ICJAdditions.h in Headers */,
+				37B04D7F059DE840005089C5 /* OutgoingFileController.h in Headers */,
+				37B04D80059DE840005089C5 /* DialogController.h in Headers */,
+				37B04D81059DE840005089C5 /* ICQFileTransfer.h in Headers */,
+				37B04D82059DE840005089C5 /* fileTransferGlue.h in Headers */,
+				37B04D83059DE840005089C5 /* IncomingFileController.h in Headers */,
+				37B04D84059DE840005089C5 /* History.h in Headers */,
+				37CF9C5905B96BEE00E0F0E2 /* NetworkProblemAlert.h in Headers */,
+				3722ACBF05BDBA1700228324 /* AboutPanelController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		37B04D50059DE840005089C5 /* Icy Juice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3772F73D0A979C5900CA2792 /* Build configuration list for PBXNativeTarget "Icy Juice" */;
+			buildPhases = (
+				37B04D52059DE840005089C5 /* Headers */,
+				37B04D85059DE840005089C5 /* Resources */,
+				37B04DBE059DE840005089C5 /* Sources */,
+				37B04DEE059DE840005089C5 /* Frameworks */,
+				3765446406673F5D0050C38F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375F33C80A97B88C0002D668 /* PBXTargetDependency */,
+			);
+			name = "Icy Juice";
+			productInstallPath = "$(HOME)/Applications";
+			productName = IcyJuice;
+			productReference = 37B04DF7059DE840005089C5 /* Icy Juice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3772F7410A979C5900CA2792 /* Build configuration list for PBXProject "Icy Juice" */;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Hebrew,
+				Italian,
+				sv,
+				cs,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* IcyJuice */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3772F7F10A979F3500CA2792 /* Products */;
+					ProjectRef = 3772F7F00A979F3500CA2792 /* libicq2000.xcodeproj */;
+				},
+			);
+			targets = (
+				37B04D50059DE840005089C5 /* Icy Juice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3772F7F80A979F3500CA2792 /* libicq2000.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libicq2000.a;
+			remoteRef = 3772F7F70A979F3500CA2792 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37B04D85059DE840005089C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B04D86059DE840005089C5 /* MainMenu.nib in Resources */,
+				37B04D87059DE840005089C5 /* InfoPlist.strings in Resources */,
+				37B04D88059DE840005089C5 /* Find.nib in Resources */,
+				37B04D89059DE840005089C5 /* ContactInfo.nib in Resources */,
+				37B04D8A059DE840005089C5 /* PasswordSheet.nib in Resources */,
+				37B04D8B059DE840005089C5 /* IncomingMessage.nib in Resources */,
+				37B04D8C059DE840005089C5 /* OutgoingMessage.nib in Resources */,
+				37B04D8D059DE840005089C5 /* ContactListWindow.nib in Resources */,
+				37B04D8E059DE840005089C5 /* ContactList.icns in Resources */,
+				37B04D8F059DE840005089C5 /* NewUserAssistant.nib in Resources */,
+				37B04D90059DE840005089C5 /* Delete.tiff in Resources */,
+				37B04D91059DE840005089C5 /* Contact away.tiff in Resources */,
+				37B04D92059DE840005089C5 /* Contact DND.tiff in Resources */,
+				37B04D93059DE840005089C5 /* Contact invisible.tiff in Resources */,
+				37B04D94059DE840005089C5 /* Contact NA.tiff in Resources */,
+				37B04D95059DE840005089C5 /* Contact occupied.tiff in Resources */,
+				37B04D96059DE840005089C5 /* Contact online.tiff in Resources */,
+				37B04D97059DE840005089C5 /* offline.tiff in Resources */,
+				37B04D98059DE840005089C5 /* empty glass.tiff in Resources */,
+				37B04D99059DE840005089C5 /* full glass glowing.tiff in Resources */,
+				37B04D9A059DE840005089C5 /* fullglass.icns in Resources */,
+				37B04D9B059DE840005089C5 /* full glass.tiff in Resources */,
+				37B04D9C059DE840005089C5 /* Localizable.strings in Resources */,
+				37B04D9D059DE840005089C5 /* message.tiff in Resources */,
+				37B04D9E059DE840005089C5 /* Incoming.aiff in Resources */,
+				37B04DA0059DE840005089C5 /* ChasingArrows.tif in Resources */,
+				37B04DA2059DE840005089C5 /* UserSettings.nib in Resources */,
+				37B04DA3059DE840005089C5 /* Dialog.nib in Resources */,
+				37B04DA4059DE840005089C5 /* Preferences.nib in Resources */,
+				37B04DA5059DE840005089C5 /* Countries.plist in Resources */,
+				37B04DA6059DE840005089C5 /* Sex.plist in Resources */,
+				37B04DA7059DE840005089C5 /* History.nib in Resources */,
+				37B04DA8059DE840005089C5 /* UserDetails.nib in Resources */,
+				37B04DA9059DE840005089C5 /* saved history.png in Resources */,
+				37B04DAA059DE840005089C5 /* user info.tiff in Resources */,
+				37B04DAB059DE840005089C5 /* Clean.tiff in Resources */,
+				37B04DAC059DE840005089C5 /* history book.tiff in Resources */,
+				37B04DAD059DE840005089C5 /* add to contact list.tiff in Resources */,
+				37B04DAE059DE840005089C5 /* recipients.tiff in Resources */,
+				37B04DAF059DE840005089C5 /* forward arrow.tiff in Resources */,
+				37B04DB0059DE840005089C5 /* envelope.tiff in Resources */,
+				37B04DB1059DE840005089C5 /* reply envelope.tiff in Resources */,
+				37B04DB2059DE840005089C5 /* Languages.plist in Resources */,
+				37B04DB3059DE840005089C5 /* StatusMessagePanel.nib in Resources */,
+				37B04DB4059DE840005089C5 /* ContactStatusMessage.nib in Resources */,
+				37B04DB5059DE840005089C5 /* Multiple.tiff in Resources */,
+				37B04DB6059DE840005089C5 /* Abbreviated.strings in Resources */,
+				37B04DB7059DE840005089C5 /* status bar envelope.tiff in Resources */,
+				37B04DB8059DE840005089C5 /* status bar envelope pushed.tiff in Resources */,
+				37B04DB9059DE840005089C5 /* Contact pending authorization.tif in Resources */,
+				37B04DBA059DE840005089C5 /* OutgoingAuthReq.nib in Resources */,
+				37B04DBB059DE840005089C5 /* RejectMessage.nib in Resources */,
+				37B04DBC059DE840005089C5 /* OutgoingFile.nib in Resources */,
+				37B04DBD059DE840005089C5 /* IncomingFile.nib in Resources */,
+				37CF9B6905B957A900E0F0E2 /* caution.tif in Resources */,
+				37CF9C4A05B96BA800E0F0E2 /* NetworkProblemAlert.nib in Resources */,
+				3722AC8905BDB42500228324 /* AboutPanel.nib in Resources */,
+				373250FD05C2B2D9004943AE /* acknowledgments.html in Resources */,
+				3732510405C2B4BC004943AE /* mitzlogo.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37B04DBE059DE840005089C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B04DBF059DE840005089C5 /* main.m in Sources */,
+				37B04DC0059DE840005089C5 /* MainController.m in Sources */,
+				37B04DC1059DE840005089C5 /* ContactListView.m in Sources */,
+				37B04DC2059DE840005089C5 /* Contact.m in Sources */,
+				37B04DC3059DE840005089C5 /* ContactStatus.m in Sources */,
+				37B04DC4059DE840005089C5 /* User.m in Sources */,
+				37B04DC5059DE840005089C5 /* ICQConnection.mm in Sources */,
+				37B04DC6059DE840005089C5 /* FindController.m in Sources */,
+				37B04DC7059DE840005089C5 /* ContactInfoController.m in Sources */,
+				37B04DC8059DE840005089C5 /* ContactList.m in Sources */,
+				37B04DC9059DE840005089C5 /* PasswordSheetController.m in Sources */,
+				37B04DCA059DE840005089C5 /* IncomingMessageController.m in Sources */,
+				37B04DCB059DE840005089C5 /* OutgoingMessageController.m in Sources */,
+				37B04DCC059DE840005089C5 /* ICQUserDocument.m in Sources */,
+				37B04DCD059DE840005089C5 /* ContactListWindowController.m in Sources */,
+				37B04DCE059DE840005089C5 /* EnterTextView.m in Sources */,
+				37B04DCF059DE840005089C5 /* ChasingArrowsView.m in Sources */,
+				37B04DD0059DE840005089C5 /* NewUserAssistant.m in Sources */,
+				37B04DD1059DE840005089C5 /* ICJStatusIconCell.m in Sources */,
+				37B04DD2059DE840005089C5 /* UserSettingsController.m in Sources */,
+				37B04DD3059DE840005089C5 /* HistoryView.m in Sources */,
+				37B04DD4059DE840005089C5 /* DialogController.m in Sources */,
+				37B04DD5059DE840005089C5 /* PreferencesWindowController.m in Sources */,
+				37B04DD6059DE840005089C5 /* DockMenuTrampoline.m in Sources */,
+				37B04DD7059DE840005089C5 /* HistoryWindowController.m in Sources */,
+				37B04DD8059DE840005089C5 /* ContactPlaceholder.m in Sources */,
+				37B04DD9059DE840005089C5 /* UserDetailsController.m in Sources */,
+				37B04DDA059DE840005089C5 /* MPURLTextField.m in Sources */,
+				37B04DDB059DE840005089C5 /* MPURLTextFieldCell.m in Sources */,
+				37B04DDC059DE840005089C5 /* StatusMessageSheetController.m in Sources */,
+				37B04DDD059DE840005089C5 /* ContactStatusMessageController.m in Sources */,
+				37B04DDE059DE840005089C5 /* NSDate-MPAdditions.m in Sources */,
+				37B04DDF059DE840005089C5 /* MPStatusBarController.m in Sources */,
+				37B04DE0059DE840005089C5 /* NSString-MPAdditions.m in Sources */,
+				37B04DE1059DE840005089C5 /* ICJMessage.m in Sources */,
+				37B04DE2059DE840005089C5 /* ICQMessage.m in Sources */,
+				37B04DE3059DE840005089C5 /* OutgoingAuthReqController.m in Sources */,
+				37B04DE4059DE840005089C5 /* LibContactRef.mm in Sources */,
+				37B04DE5059DE840005089C5 /* NSSound-MPAdditions.m in Sources */,
+				37B04DE6059DE840005089C5 /* ICJDocumentController.m in Sources */,
+				37B04DE7059DE840005089C5 /* MPUserActivityMonitor.m in Sources */,
+				37B04DE8059DE840005089C5 /* NSColor-MPAdditions.m in Sources */,
+				37B04DE9059DE840005089C5 /* NSWindowController-ICJAdditions.m in Sources */,
+				37B04DEA059DE840005089C5 /* OutgoingFileController.m in Sources */,
+				37B04DEB059DE840005089C5 /* ICQFileTransfer.mm in Sources */,
+				37B04DEC059DE840005089C5 /* IncomingFileController.m in Sources */,
+				37B04DED059DE840005089C5 /* History.m in Sources */,
+				37CF9C5A05B96BEE00E0F0E2 /* NetworkProblemAlert.m in Sources */,
+				3722ACC005BDBA1700228324 /* AboutPanelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		375F33C80A97B88C0002D668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = icq2000;
+			targetProxy = 375F33C70A97B88C0002D668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0104A74D00CEB0F77F000001 /* ContactInfo.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F9320800CE561B7F000001 /* English */,
+				372291130A98A49300764F4C /* French */,
+				372291140A98A49500764F4C /* German */,
+				372291150A98A49800764F4C /* Italian */,
+				372291160A98A49A00764F4C /* cs */,
+				372291170A98A49C00764F4C /* sv */,
+			);
+			name = ContactInfo.nib;
+			sourceTree = "<group>";
+		};
+		014AB67400D6B1D07F000001 /* PasswordSheet.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				014AB67500D6B1D07F000001 /* English */,
+				3722915E0A98A57700764F4C /* French */,
+				3722915F0A98A57900764F4C /* German */,
+				372291600A98A57C00764F4C /* Italian */,
+				372291610A98A57E00764F4C /* cs */,
+				372291620A98A58000764F4C /* sv */,
+			);
+			name = PasswordSheet.nib;
+			sourceTree = "<group>";
+		};
+		03D53D9100CADE257F000001 /* Find.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D53D9200CADE257F000001 /* English */,
+				372291270A98A4DB00764F4C /* French */,
+				372291280A98A4DD00764F4C /* German */,
+				372291290A98A4E000764F4C /* Italian */,
+				3722912A0A98A4E200764F4C /* cs */,
+				3722912B0A98A4E500764F4C /* sv */,
+			);
+			name = Find.nib;
+			sourceTree = "<group>";
+		};
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				372291770A98A5BD00764F4C /* French */,
+				372291780A98A5BF00764F4C /* German */,
+				372291790A98A5C200764F4C /* Italian */,
+				3722917A0A98A5C400764F4C /* cs */,
+				3722917B0A98A5C900764F4C /* sv */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				3722913B0A98A51400764F4C /* French */,
+				3722913C0A98A51600764F4C /* German */,
+				3722913D0A98A51A00764F4C /* Italian */,
+				3722913E0A98A51C00764F4C /* cs */,
+				3722913F0A98A51E00764F4C /* sv */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		37058ABE04A469C100000005 /* OutgoingFile.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37058ABF04A469C100000005 /* English */,
+				3722914F0A98A54D00764F4C /* French */,
+				372291500A98A54F00764F4C /* German */,
+				372291510A98A55300764F4C /* Italian */,
+				372291520A98A55500764F4C /* cs */,
+				372291530A98A55700764F4C /* sv */,
+			);
+			name = OutgoingFile.nib;
+			sourceTree = "<group>";
+		};
+		3722AC8705BDB42500228324 /* AboutPanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3722AC8805BDB42500228324 /* English */,
+				3722910A0A98A45300764F4C /* French */,
+				3722910B0A98A45500764F4C /* German */,
+				3722910C0A98A45800764F4C /* Italian */,
+				3722910D0A98A45A00764F4C /* cs */,
+				3722910E0A98A45D00764F4C /* sv */,
+			);
+			name = AboutPanel.nib;
+			sourceTree = "<group>";
+		};
+		373250FB05C2B2D9004943AE /* acknowledgments.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373250FC05C2B2D9004943AE /* English */,
+				372290FD0A98A40200764F4C /* sv */,
+				372291050A98A42300764F4C /* Italian */,
+				372291070A98A43E00764F4C /* French */,
+				372291080A98A44100764F4C /* German */,
+				372291090A98A44400764F4C /* cs */,
+			);
+			name = acknowledgments.html;
+			sourceTree = "<group>";
+		};
+		3732510305C2B4BC004943AE /* mitzlogo.tiff */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3732510105C2B4A0004943AE /* English */,
+				3722919C0A98A6F200764F4C /* French */,
+				3722919D0A98A6F500764F4C /* German */,
+				3722919E0A98A6F800764F4C /* Italian */,
+				3722919F0A98A6FA00764F4C /* cs */,
+				372291A00A98A6FD00764F4C /* sv */,
+			);
+			name = mitzlogo.tiff;
+			sourceTree = "<group>";
+		};
+		37CF9C4805B96BA800E0F0E2 /* NetworkProblemAlert.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37CF9C4905B96BA800E0F0E2 /* English */,
+				372291400A98A52200764F4C /* French */,
+				372291410A98A52400764F4C /* German */,
+				372291420A98A52700764F4C /* Italian */,
+				372291430A98A52A00764F4C /* cs */,
+				372291440A98A52C00764F4C /* sv */,
+			);
+			name = NetworkProblemAlert.nib;
+			sourceTree = "<group>";
+		};
+		37D4D664056524AC00168003 /* IncomingFile.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37D4D6620565249D00168003 /* English */,
+				372291360A98A50600764F4C /* French */,
+				372291370A98A50800764F4C /* German */,
+				372291380A98A50B00764F4C /* Italian */,
+				372291390A98A50D00764F4C /* cs */,
+				3722913A0A98A51000764F4C /* sv */,
+			);
+			name = IncomingFile.nib;
+			sourceTree = "<group>";
+		};
+		F501E9DD00E507D201000001 /* IncomingMessage.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F501E9DE00E507D201000001 /* English */,
+				372291310A98A4F900764F4C /* French */,
+				372291320A98A4FB00764F4C /* German */,
+				372291330A98A4FF00764F4C /* Italian */,
+				372291340A98A50100764F4C /* cs */,
+				372291350A98A50300764F4C /* sv */,
+			);
+			name = IncomingMessage.nib;
+			sourceTree = "<group>";
+		};
+		F5226B9101C0C05801AA27BB /* Preferences.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5226B9201C0C05801AA27BB /* English */,
+				372291590A98A56A00764F4C /* French */,
+				3722915A0A98A56C00764F4C /* German */,
+				3722915B0A98A56F00764F4C /* Italian */,
+				3722915C0A98A57100764F4C /* cs */,
+				3722915D0A98A57400764F4C /* sv */,
+			);
+			name = Preferences.nib;
+			sourceTree = "<group>";
+		};
+		F525CC8B020BFBBA01C7BC65 /* Languages.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F525CC8C020BFBBA01C7BC65 /* English */,
+				372291AB0A98A71E00764F4C /* French */,
+				372291AC0A98A72100764F4C /* German */,
+				372291AD0A98A72400764F4C /* Italian */,
+				372291AE0A98A72600764F4C /* cs */,
+				372291AF0A98A72800764F4C /* sv */,
+			);
+			name = Languages.plist;
+			sourceTree = "<group>";
+		};
+		F52A1D880222681B01C7BB65 /* StatusMessagePanel.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F52A1D890222681B01C7BB65 /* English */,
+				372291680A98A59000764F4C /* French */,
+				372291690A98A59200764F4C /* German */,
+				3722916A0A98A59600764F4C /* Italian */,
+				3722916B0A98A59800764F4C /* cs */,
+				3722916C0A98A59A00764F4C /* sv */,
+			);
+			name = StatusMessagePanel.nib;
+			sourceTree = "<group>";
+		};
+		F53B4BC401DDF54601C7BBD6 /* UserDetails.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53B4BC501DDF54601C7BBD6 /* English */,
+				3722916D0A98A59D00764F4C /* French */,
+				3722916E0A98A59F00764F4C /* German */,
+				3722916F0A98A5A200764F4C /* Italian */,
+				372291700A98A5A400764F4C /* cs */,
+				372291710A98A5A600764F4C /* sv */,
+			);
+			name = UserDetails.nib;
+			sourceTree = "<group>";
+		};
+		F54251B1024227A501C7BC3B /* Abbreviated.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54251B2024227A501C7BC3B /* English */,
+				3722917D0A98A5EB00764F4C /* French */,
+				3722917E0A98A5ED00764F4C /* German */,
+				3722917F0A98A5F000764F4C /* Italian */,
+				372291800A98A5F300764F4C /* cs */,
+				372291810A98A5F500764F4C /* sv */,
+			);
+			name = Abbreviated.strings;
+			sourceTree = "<group>";
+		};
+		F543A0EE01A548E8014AFF99 /* NewUserAssistant.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F543A0EC01A544B3014AFF99 /* English */,
+				372291450A98A53500764F4C /* French */,
+				372291460A98A53700764F4C /* German */,
+				372291470A98A53A00764F4C /* Italian */,
+				372291480A98A53C00764F4C /* cs */,
+				372291490A98A53E00764F4C /* sv */,
+			);
+			name = NewUserAssistant.nib;
+			sourceTree = "<group>";
+		};
+		F543DA6B01A407BD0139EB9B /* ContactListWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F543DA6C01A407BD0139EB9B /* English */,
+				372291180A98A4A600764F4C /* French */,
+				372291190A98A4A800764F4C /* German */,
+				3722911A0A98A4AE00764F4C /* Italian */,
+				3722911B0A98A4B000764F4C /* cs */,
+				3722911C0A98A4B200764F4C /* sv */,
+			);
+			name = ContactListWindow.nib;
+			sourceTree = "<group>";
+		};
+		F54D1B38019AE2650128951A /* OutgoingMessage.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54D1B39019AE2650128951A /* English */,
+				372291540A98A55D00764F4C /* French */,
+				372291550A98A56000764F4C /* German */,
+				372291560A98A56300764F4C /* Italian */,
+				372291570A98A56500764F4C /* cs */,
+				372291580A98A56700764F4C /* sv */,
+			);
+			name = OutgoingMessage.nib;
+			sourceTree = "<group>";
+		};
+		F556A38201CFCA2901C80101 /* Countries.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F556A38301CFCA2901C80101 /* English */,
+				372291A10A98A70300764F4C /* French */,
+				372291A20A98A70500764F4C /* German */,
+				372291A30A98A70800764F4C /* Italian */,
+				372291A40A98A70A00764F4C /* cs */,
+				372291A50A98A70D00764F4C /* sv */,
+			);
+			name = Countries.plist;
+			sourceTree = "<group>";
+		};
+		F556A38401CFCA2901C80101 /* Sex.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F556A38501CFCA2901C80101 /* English */,
+				372291A60A98A71100764F4C /* French */,
+				372291A70A98A71300764F4C /* German */,
+				372291A80A98A71600764F4C /* Italian */,
+				372291A90A98A71900764F4C /* cs */,
+				372291AA0A98A71B00764F4C /* sv */,
+			);
+			name = Sex.plist;
+			sourceTree = "<group>";
+		};
+		F557AD2301B6E4E5013C4CD2 /* UserSettings.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F557AD2401B6E4E5013C4CD2 /* English */,
+				372291720A98A5A900764F4C /* French */,
+				372291730A98A5AC00764F4C /* German */,
+				372291740A98A5B000764F4C /* Italian */,
+				372291750A98A5B200764F4C /* cs */,
+				372291760A98A5B500764F4C /* sv */,
+			);
+			name = UserSettings.nib;
+			sourceTree = "<group>";
+		};
+		F56DBF1E026CB9DE01000005 /* OutgoingAuthReq.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F56DBF1F026CB9DE01000005 /* English */,
+				3722914A0A98A54100764F4C /* French */,
+				3722914B0A98A54300764F4C /* German */,
+				3722914C0A98A54600764F4C /* Italian */,
+				3722914D0A98A54800764F4C /* cs */,
+				3722914E0A98A54A00764F4C /* sv */,
+			);
+			name = OutgoingAuthReq.nib;
+			sourceTree = "<group>";
+		};
+		F576BAD301B81C82017BAC93 /* History.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F576BAD401B81C82017BAC93 /* English */,
+				3722912C0A98A4EA00764F4C /* French */,
+				3722912D0A98A4EC00764F4C /* German */,
+				3722912E0A98A4EF00764F4C /* Italian */,
+				3722912F0A98A4F100764F4C /* cs */,
+				372291300A98A4F300764F4C /* sv */,
+			);
+			name = History.nib;
+			sourceTree = "<group>";
+		};
+		F576BADE01B83EBA017BAC93 /* Dialog.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F576BADF01B83EBA017BAC93 /* English */,
+				372291220A98A4CC00764F4C /* French */,
+				372291230A98A4CE00764F4C /* German */,
+				372291240A98A4D100764F4C /* Italian */,
+				372291250A98A4D300764F4C /* cs */,
+				372291260A98A4D600764F4C /* sv */,
+			);
+			name = Dialog.nib;
+			sourceTree = "<group>";
+		};
+		F5997FC60279908B01000005 /* RejectMessage.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5997FC70279908B01000005 /* English */,
+				372291630A98A58300764F4C /* French */,
+				372291640A98A58500764F4C /* German */,
+				372291650A98A58800764F4C /* Italian */,
+				372291660A98A58A00764F4C /* cs */,
+				372291670A98A58C00764F4C /* sv */,
+			);
+			name = RejectMessage.nib;
+			sourceTree = "<group>";
+		};
+		F5A4E0FA022D5CF701C7BB33 /* ContactStatusMessage.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A4E0FB022D5CF701C7BB33 /* English */,
+				3722911D0A98A4BC00764F4C /* French */,
+				3722911E0A98A4BE00764F4C /* German */,
+				3722911F0A98A4C200764F4C /* Italian */,
+				372291200A98A4C400764F4C /* cs */,
+				372291210A98A4C600764F4C /* sv */,
+			);
+			name = ContactStatusMessage.nib;
+			sourceTree = "<group>";
+		};
+		F5AB084C01AE84B101FBD877 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372291860A98A62B00764F4C /* French */,
+				372291870A98A62D00764F4C /* German */,
+				372291880A98A63100764F4C /* Italian */,
+				372291890A98A63300764F4C /* cs */,
+				3722918A0A98A63500764F4C /* sv */,
+				3722919B0A98A6DA00764F4C /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3772F73E0A979C5900CA2792 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IcyJuice.pch;
+				HEADER_SEARCH_PATHS = libicq2000;
+				INFOPLIST_FILE = "Info-Icy_Juice.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LINKER_DISPLAYS_FILES_FOR_UNDEFINED_SYMBOLS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OPTIMIZATION_CFLAGS = "-O0";
+				PRODUCT_NAME = "Icy Juice";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Development;
+		};
+		3772F73F0A979C5900CA2792 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IcyJuice.pch;
+				HEADER_SEARCH_PATHS = libicq2000;
+				INFOPLIST_FILE = "Info-Icy_Juice.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LINKER_DISPLAYS_FILES_FOR_UNDEFINED_SYMBOLS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				PRODUCT_NAME = "Icy Juice";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		3772F7400A979C5900CA2792 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = IcyJuice.pch;
+				HEADER_SEARCH_PATHS = libicq2000;
+				INFOPLIST_FILE = "Info-Icy_Juice.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LINKER_DISPLAYS_FILES_FOR_UNDEFINED_SYMBOLS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				PRODUCT_NAME = "Icy Juice";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		3772F7420A979C5900CA2792 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		3772F7430A979C5900CA2792 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+		3772F7440A979C5900CA2792 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3772F73D0A979C5900CA2792 /* Build configuration list for PBXNativeTarget "Icy Juice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3772F73E0A979C5900CA2792 /* Development */,
+				3772F73F0A979C5900CA2792 /* Deployment */,
+				3772F7400A979C5900CA2792 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		3772F7410A979C5900CA2792 /* Build configuration list for PBXProject "Icy Juice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3772F7420A979C5900CA2792 /* Development */,
+				3772F7430A979C5900CA2792 /* Deployment */,
+				3772F7440A979C5900CA2792 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

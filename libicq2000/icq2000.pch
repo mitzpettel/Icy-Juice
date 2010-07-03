@@ -1,0 +1,41 @@
+/*
+ *  icq2000.pch
+ *  Icy Juice
+ *
+ *  Created by Mitz Pettel on Fri Jan 23 2004.
+ *  Copyright (c) 2004 __MyCompanyName__. All rights reserved.
+ *
+ */
+
+#define HAVE_HASH_MAP 1
+#define HAVE_SSTREAM
+#define MSG_NOSIGNAL 0
+
+#include <iostream>
+#include <string>
+#include <queue>
+#include <map>
+#include <time.h>
+#include <sys/time.h>
+#include <list>
+#include <exception>
+#include <fstream>
+#include <stdlib.h>
+#include <set>
+#include <vector>
+#include <iomanip>
+#include <iterator>
+#include <errno.h>
+#include <sys/types.h>
+#include <ctype.h>
+#include <string.h>
+#include <unistd.h>
+#include <stdio.h>
+
+/*
+#include <fcntl.h>
+#include <sys/socket.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+*/

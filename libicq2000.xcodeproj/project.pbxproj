@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		375F33640A97B5F00002D668 /* buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DFD4BD019428A001A3FD95 /* buffer.cpp */; };
+		375F33670A97B5F20002D668 /* Capabilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5AB1023026A350101000005 /* Capabilities.cpp */; };
+		375F33690A97B5F30002D668 /* Client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DFD4BF019428A001A3FD95 /* Client.cpp */; };
+		375F336C0A97B5F50002D668 /* Contact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DFD4C2019428A001A3FD95 /* Contact.cpp */; };
+		375F336E0A97B5F60002D668 /* ContactList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DFD4C4019428A001A3FD95 /* ContactList.cpp */; };
+		375F33700A97B5F80002D668 /* ContactTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C569C3048FDA7400000005 /* ContactTree.cpp */; };
+		375F33730A97B5FA0002D668 /* DirectClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A88AF701989DB801020C2D /* DirectClient.cpp */; };
+		375F33750A97B5FA0002D668 /* events.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DFD4C7019428A001A3FD95 /* events.cpp */; };
+		375F33770A97B5FB0002D668 /* exceptions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DFD4C9019428A001A3FD95 /* exceptions.cpp */; };
+		375F33790A97B5FE0002D668 /* FileTransferClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 37C569C5048FDA8E00000005 /* FileTransferClient.cpp */; };
+		375F337D0A97B6220002D668 /* ICBMCookie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F55EE6D8019AC1FB01785FA3 /* ICBMCookie.cpp */; };
+		375F337E0A97B6220002D668 /* ICQ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A88AF901989DB801020C2D /* ICQ.cpp */; };
+		375F337F0A97B6220002D668 /* MessageHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54DE3270255F62501000002 /* MessageHandler.cpp */; };
+		375F33800A97B6220002D668 /* SMTPClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53660B5022FD9BB01000001 /* SMTPClient.cpp */; };
+		375F33810A97B6220002D668 /* SNAC-base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A88AFB01989DB801020C2D /* SNAC-base.cpp */; };
+		375F33820A97B6220002D668 /* SNAC-BOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5AB084401AE594001FBD877 /* SNAC-BOS.cpp */; };
+		375F33830A97B6220002D668 /* SNAC-BUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A88AFD01989DB801020C2D /* SNAC-BUD.cpp */; };
+		375F33840A97B6220002D668 /* SNAC-GEN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A88AFF01989DB801020C2D /* SNAC-GEN.cpp */; };
+		375F33850A97B6220002D668 /* SNAC-LOC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A88B0101989DB801020C2D /* SNAC-LOC.cpp */; };
+		375F33860A97B6220002D668 /* SNAC-MSG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A88B0301989DB801020C2D /* SNAC-MSG.cpp */; };
+		375F33870A97B6220002D668 /* SNAC-SBL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DD951601C16B050124D648 /* SNAC-SBL.cpp */; };
+		375F33880A97B6220002D668 /* SNAC-SRV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A88B0501989DB801020C2D /* SNAC-SRV.cpp */; };
+		375F33890A97B6220002D668 /* SNAC-UIN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A88B0701989DB801020C2D /* SNAC-UIN.cpp */; };
+		375F338A0A97B6220002D668 /* SNAC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DFD4CB019428A001A3FD95 /* SNAC.cpp */; };
+		375F338B0A97B6220002D668 /* socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DFD4CD019428A001A3FD95 /* socket.cpp */; };
+		375F338C0A97B6220002D668 /* SocketClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F53660B6022FD9BB01000001 /* SocketClient.cpp */; };
+		375F338D0A97B6220002D668 /* time_extra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5FF224D0231932501000001 /* time_extra.cpp */; };
+		375F338E0A97B6220002D668 /* TLV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DFD4CF019428A001A3FD95 /* TLV.cpp */; };
+		375F338F0A97B6220002D668 /* Translator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F548876001A1861F01F115B0 /* Translator.cpp */; };
+		375F33900A97B6220002D668 /* UserInfoBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A88B0901989DB801020C2D /* UserInfoBlock.cpp */; };
+		375F33910A97B6220002D668 /* Xml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5DFD4D1019428A001A3FD95 /* Xml.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		375F0D09056E6F150084C21B /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		375F0D0A056E6F150084C21B /* Cache.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Cache.h; sourceTree = "<group>"; };
+		375F0D0B056E6F150084C21B /* Capabilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Capabilities.h; sourceTree = "<group>"; };
+		375F0D0C056E6F150084C21B /* DCCache.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DCCache.h; sourceTree = "<group>"; };
+		375F0D0D056E6F150084C21B /* DirectClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = DirectClient.h; sourceTree = "<group>"; };
+		375F0D0E056E6F150084C21B /* FTCache.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = FTCache.h; sourceTree = "<group>"; };
+		375F0D0F056E6F150084C21B /* ICBMCookie.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ICBMCookie.h; sourceTree = "<group>"; };
+		375F0D10056E6F150084C21B /* ICBMCookieCache.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ICBMCookieCache.h; sourceTree = "<group>"; };
+		375F0D11056E6F150084C21B /* ICQ.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ICQ.h; sourceTree = "<group>"; };
+		375F0D12056E6F150084C21B /* MessageHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MessageHandler.h; sourceTree = "<group>"; };
+		375F0D13056E6F150084C21B /* RequestIDCache.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RequestIDCache.h; sourceTree = "<group>"; };
+		375F0D14056E6F150084C21B /* SeqNumCache.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SeqNumCache.h; sourceTree = "<group>"; };
+		375F0D15056E6F150084C21B /* SMTPClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SMTPClient.h; sourceTree = "<group>"; };
+		375F0D16056E6F150084C21B /* SNAC-base.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "SNAC-base.h"; sourceTree = "<group>"; };
+		375F0D17056E6F150084C21B /* SNAC-BOS.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "SNAC-BOS.h"; sourceTree = "<group>"; };
+		375F0D18056E6F150084C21B /* SNAC-BUD.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "SNAC-BUD.h"; sourceTree = "<group>"; };
+		375F0D19056E6F150084C21B /* SNAC-GEN.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "SNAC-GEN.h"; sourceTree = "<group>"; };
+		375F0D1A056E6F150084C21B /* SNAC-LOC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "SNAC-LOC.h"; sourceTree = "<group>"; };
+		375F0D1B056E6F150084C21B /* SNAC-MSG.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "SNAC-MSG.h"; sourceTree = "<group>"; };
+		375F0D1C056E6F150084C21B /* SNAC-SBL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "SNAC-SBL.h"; sourceTree = "<group>"; };
+		375F0D1D056E6F150084C21B /* SNAC-SRV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "SNAC-SRV.h"; sourceTree = "<group>"; };
+		375F0D1E056E6F150084C21B /* SNAC-UIN.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "SNAC-UIN.h"; sourceTree = "<group>"; };
+		375F0D1F056E6F150084C21B /* SNAC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SNAC.h; sourceTree = "<group>"; };
+		375F0D20056E6F150084C21B /* socket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = socket.h; sourceTree = "<group>"; };
+		375F0D21056E6F150084C21B /* SocketClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SocketClient.h; sourceTree = "<group>"; };
+		375F0D22056E6F150084C21B /* TLV.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TLV.h; sourceTree = "<group>"; };
+		375F0D23056E6F150084C21B /* UserInfoBlock.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UserInfoBlock.h; sourceTree = "<group>"; };
+		375F0D24056E6F150084C21B /* Xml.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Xml.h; sourceTree = "<group>"; };
+		375F335F0A97B5E20002D668 /* libicq2000.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libicq2000.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C569BD048FCD0200000005 /* ContactTree.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContactTree.h; sourceTree = "<group>"; };
+		37C569BE048FCD0200000005 /* sigslot.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sigslot.h; sourceTree = "<group>"; };
+		37C569C3048FDA7400000005 /* ContactTree.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ContactTree.cpp; sourceTree = "<group>"; };
+		37C569C5048FDA8E00000005 /* FileTransferClient.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = FileTransferClient.cpp; sourceTree = "<group>"; };
+		37F64EB404BAF05E00000005 /* FileTransferClient.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FileTransferClient.h; path = libicq2000/src/FileTransferClient.h; sourceTree = SOURCE_ROOT; };
+		37FFA36205C1108E00A11145 /* icq2000.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icq2000.pch; sourceTree = "<group>"; };
+		37FFA4BB05C1205500A11145 /* icq2000.exp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.exports; path = icq2000.exp; sourceTree = "<group>"; };
+		F53660B5022FD9BB01000001 /* SMTPClient.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = SMTPClient.cpp; sourceTree = "<group>"; };
+		F53660B6022FD9BB01000001 /* SocketClient.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = SocketClient.cpp; sourceTree = "<group>"; };
+		F548876001A1861F01F115B0 /* Translator.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Translator.cpp; sourceTree = "<group>"; };
+		F548876101A1861F01F115B0 /* Translator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Translator.h; sourceTree = "<group>"; };
+		F54DE3240255EDBB01000002 /* ref_ptr.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ref_ptr.h; sourceTree = "<group>"; };
+		F54DE3270255F62501000002 /* MessageHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = MessageHandler.cpp; sourceTree = "<group>"; };
+		F55A3132019FBF5201326601 /* userinfoconstants.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = userinfoconstants.h; sourceTree = "<group>"; };
+		F55B31AA01C407CA01971474 /* sstream_fix.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sstream_fix.h; sourceTree = "<group>"; };
+		F55EE6D8019AC1FB01785FA3 /* ICBMCookie.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ICBMCookie.cpp; sourceTree = "<group>"; };
+		F5A88AF701989DB801020C2D /* DirectClient.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = DirectClient.cpp; sourceTree = "<group>"; };
+		F5A88AF901989DB801020C2D /* ICQ.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ICQ.cpp; sourceTree = "<group>"; };
+		F5A88AFB01989DB801020C2D /* SNAC-base.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = "SNAC-base.cpp"; sourceTree = "<group>"; };
+		F5A88AFD01989DB801020C2D /* SNAC-BUD.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = "SNAC-BUD.cpp"; sourceTree = "<group>"; };
+		F5A88AFF01989DB801020C2D /* SNAC-GEN.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = "SNAC-GEN.cpp"; sourceTree = "<group>"; };
+		F5A88B0101989DB801020C2D /* SNAC-LOC.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = "SNAC-LOC.cpp"; sourceTree = "<group>"; };
+		F5A88B0301989DB801020C2D /* SNAC-MSG.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = "SNAC-MSG.cpp"; sourceTree = "<group>"; };
+		F5A88B0501989DB801020C2D /* SNAC-SRV.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = "SNAC-SRV.cpp"; sourceTree = "<group>"; };
+		F5A88B0701989DB801020C2D /* SNAC-UIN.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = "SNAC-UIN.cpp"; sourceTree = "<group>"; };
+		F5A88B0901989DB801020C2D /* UserInfoBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = UserInfoBlock.cpp; sourceTree = "<group>"; };
+		F5AB084401AE594001FBD877 /* SNAC-BOS.cpp */ = {isa = PBXFileReference; fileEncoding = 30; indentWidth = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "SNAC-BOS.cpp"; sourceTree = "<group>"; usesTabs = 0; };
+		F5AB1023026A350101000005 /* Capabilities.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Capabilities.cpp; sourceTree = "<group>"; };
+		F5DD951601C16B050124D648 /* SNAC-SBL.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = "SNAC-SBL.cpp"; sourceTree = "<group>"; };
+		F5DFD4BD019428A001A3FD95 /* buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = buffer.cpp; sourceTree = "<group>"; };
+		F5DFD4BF019428A001A3FD95 /* Client.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Client.cpp; sourceTree = "<group>"; };
+		F5DFD4C0019428A001A3FD95 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		F5DFD4C1019428A001A3FD95 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		F5DFD4C2019428A001A3FD95 /* Contact.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Contact.cpp; sourceTree = "<group>"; };
+		F5DFD4C3019428A001A3FD95 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		F5DFD4C4019428A001A3FD95 /* ContactList.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ContactList.cpp; sourceTree = "<group>"; };
+		F5DFD4C5019428A001A3FD95 /* ContactList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
+		F5DFD4C7019428A001A3FD95 /* events.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = events.cpp; sourceTree = "<group>"; };
+		F5DFD4C8019428A001A3FD95 /* events.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = events.h; sourceTree = "<group>"; };
+		F5DFD4C9019428A001A3FD95 /* exceptions.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = exceptions.cpp; sourceTree = "<group>"; };
+		F5DFD4CA019428A001A3FD95 /* exceptions.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = exceptions.h; sourceTree = "<group>"; };
+		F5DFD4CB019428A001A3FD95 /* SNAC.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = SNAC.cpp; sourceTree = "<group>"; };
+		F5DFD4CD019428A001A3FD95 /* socket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = socket.cpp; sourceTree = "<group>"; };
+		F5DFD4CF019428A001A3FD95 /* TLV.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TLV.cpp; sourceTree = "<group>"; };
+		F5DFD4D1019428A001A3FD95 /* Xml.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = Xml.cpp; sourceTree = "<group>"; };
+		F5FF224C0231932501000001 /* time_extra.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = time_extra.h; sourceTree = "<group>"; };
+		F5FF224D0231932501000001 /* time_extra.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = time_extra.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		375F335D0A97B5E20002D668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375F335F0A97B5E20002D668 /* libicq2000.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* IcyJuice */ = {
+			isa = PBXGroup;
+			children = (
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				F5DFD4BC019428A001A3FD95 /* libicq2000 */,
+			);
+			name = IcyJuice;
+			sourceTree = "<group>";
+		};
+		F5472F8201D47D7901C80101 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				F5DFD4C0019428A001A3FD95 /* Client.h */,
+				F5DFD4C1019428A001A3FD95 /* constants.h */,
+				F5DFD4C3019428A001A3FD95 /* Contact.h */,
+				F5DFD4C5019428A001A3FD95 /* ContactList.h */,
+				F5DFD4C8019428A001A3FD95 /* events.h */,
+				F5DFD4CA019428A001A3FD95 /* exceptions.h */,
+				F55A3132019FBF5201326601 /* userinfoconstants.h */,
+				F548876101A1861F01F115B0 /* Translator.h */,
+				F5FF224C0231932501000001 /* time_extra.h */,
+				F54DE3240255EDBB01000002 /* ref_ptr.h */,
+				37C569BD048FCD0200000005 /* ContactTree.h */,
+				37C569BE048FCD0200000005 /* sigslot.h */,
+				37F64EB404BAF05E00000005 /* FileTransferClient.h */,
+			);
+			name = Headers;
+			path = libicq2000;
+			sourceTree = "<group>";
+		};
+		F5472F8301D47D7901C80101 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				375F0D0A056E6F150084C21B /* Cache.h */,
+				F5AB1023026A350101000005 /* Capabilities.cpp */,
+				375F0D0B056E6F150084C21B /* Capabilities.h */,
+				F5DFD4BF019428A001A3FD95 /* Client.cpp */,
+				F5DFD4C2019428A001A3FD95 /* Contact.cpp */,
+				F5DFD4C4019428A001A3FD95 /* ContactList.cpp */,
+				37C569C3048FDA7400000005 /* ContactTree.cpp */,
+				375F0D0C056E6F150084C21B /* DCCache.h */,
+				F5A88AF701989DB801020C2D /* DirectClient.cpp */,
+				375F0D0D056E6F150084C21B /* DirectClient.h */,
+				375F0D0E056E6F150084C21B /* FTCache.h */,
+				37C569C5048FDA8E00000005 /* FileTransferClient.cpp */,
+				F55EE6D8019AC1FB01785FA3 /* ICBMCookie.cpp */,
+				375F0D0F056E6F150084C21B /* ICBMCookie.h */,
+				375F0D10056E6F150084C21B /* ICBMCookieCache.h */,
+				F5A88AF901989DB801020C2D /* ICQ.cpp */,
+				375F0D11056E6F150084C21B /* ICQ.h */,
+				F54DE3270255F62501000002 /* MessageHandler.cpp */,
+				375F0D12056E6F150084C21B /* MessageHandler.h */,
+				375F0D13056E6F150084C21B /* RequestIDCache.h */,
+				F53660B5022FD9BB01000001 /* SMTPClient.cpp */,
+				375F0D15056E6F150084C21B /* SMTPClient.h */,
+				F5AB084401AE594001FBD877 /* SNAC-BOS.cpp */,
+				375F0D17056E6F150084C21B /* SNAC-BOS.h */,
+				F5A88AFD01989DB801020C2D /* SNAC-BUD.cpp */,
+				375F0D18056E6F150084C21B /* SNAC-BUD.h */,
+				F5A88AFF01989DB801020C2D /* SNAC-GEN.cpp */,
+				375F0D19056E6F150084C21B /* SNAC-GEN.h */,
+				F5A88B0101989DB801020C2D /* SNAC-LOC.cpp */,
+				375F0D1A056E6F150084C21B /* SNAC-LOC.h */,
+				F5A88B0301989DB801020C2D /* SNAC-MSG.cpp */,
+				375F0D1B056E6F150084C21B /* SNAC-MSG.h */,
+				F5DD951601C16B050124D648 /* SNAC-SBL.cpp */,
+				375F0D1C056E6F150084C21B /* SNAC-SBL.h */,
+				F5A88B0501989DB801020C2D /* SNAC-SRV.cpp */,
+				375F0D1D056E6F150084C21B /* SNAC-SRV.h */,
+				F5A88B0701989DB801020C2D /* SNAC-UIN.cpp */,
+				375F0D1E056E6F150084C21B /* SNAC-UIN.h */,
+				F5A88AFB01989DB801020C2D /* SNAC-base.cpp */,
+				375F0D16056E6F150084C21B /* SNAC-base.h */,
+				F5DFD4CB019428A001A3FD95 /* SNAC.cpp */,
+				375F0D1F056E6F150084C21B /* SNAC.h */,
+				375F0D14056E6F150084C21B /* SeqNumCache.h */,
+				F53660B6022FD9BB01000001 /* SocketClient.cpp */,
+				375F0D21056E6F150084C21B /* SocketClient.h */,
+				F5DFD4CF019428A001A3FD95 /* TLV.cpp */,
+				375F0D22056E6F150084C21B /* TLV.h */,
+				F548876001A1861F01F115B0 /* Translator.cpp */,
+				F5A88B0901989DB801020C2D /* UserInfoBlock.cpp */,
+				375F0D23056E6F150084C21B /* UserInfoBlock.h */,
+				F5DFD4D1019428A001A3FD95 /* Xml.cpp */,
+				375F0D24056E6F150084C21B /* Xml.h */,
+				F5DFD4BD019428A001A3FD95 /* buffer.cpp */,
+				375F0D09056E6F150084C21B /* buffer.h */,
+				F5DFD4C7019428A001A3FD95 /* events.cpp */,
+				F5DFD4C9019428A001A3FD95 /* exceptions.cpp */,
+				F5DFD4CD019428A001A3FD95 /* socket.cpp */,
+				375F0D20056E6F150084C21B /* socket.h */,
+				F55B31AA01C407CA01971474 /* sstream_fix.h */,
+				F5FF224D0231932501000001 /* time_extra.cpp */,
+			);
+			name = Sources;
+			path = src;
+			sourceTree = "<group>";
+		};
+		F5DFD4BC019428A001A3FD95 /* libicq2000 */ = {
+			isa = PBXGroup;
+			children = (
+				37FFA4BB05C1205500A11145 /* icq2000.exp */,
+				F5472F8201D47D7901C80101 /* Headers */,
+				F5472F8301D47D7901C80101 /* Sources */,
+				37FFA36205C1108E00A11145 /* icq2000.pch */,
+			);
+			path = libicq2000;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		375F335B0A97B5E20002D668 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		375F335E0A97B5E20002D668 /* icq2000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 375F339F0A97B6A30002D668 /* Build configuration list for PBXNativeTarget "icq2000" */;
+			buildPhases = (
+				375F335B0A97B5E20002D668 /* Headers */,
+				375F335C0A97B5E20002D668 /* Sources */,
+				375F335D0A97B5E20002D668 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = icq2000;
+			productName = icq2000;
+			productReference = 375F335F0A97B5E20002D668 /* libicq2000.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3772F7D40A979F2800CA2792 /* Build configuration list for PBXProject "libicq2000" */;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Hebrew,
+				Italian,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* IcyJuice */;
+			projectDirPath = "";
+			targets = (
+				375F335E0A97B5E20002D668 /* icq2000 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		375F335C0A97B5E20002D668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375F337D0A97B6220002D668 /* ICBMCookie.cpp in Sources */,
+				375F337E0A97B6220002D668 /* ICQ.cpp in Sources */,
+				375F337F0A97B6220002D668 /* MessageHandler.cpp in Sources */,
+				375F33800A97B6220002D668 /* SMTPClient.cpp in Sources */,
+				375F33810A97B6220002D668 /* SNAC-base.cpp in Sources */,
+				375F33820A97B6220002D668 /* SNAC-BOS.cpp in Sources */,
+				375F33830A97B6220002D668 /* SNAC-BUD.cpp in Sources */,
+				375F33840A97B6220002D668 /* SNAC-GEN.cpp in Sources */,
+				375F33850A97B6220002D668 /* SNAC-LOC.cpp in Sources */,
+				375F33860A97B6220002D668 /* SNAC-MSG.cpp in Sources */,
+				375F33870A97B6220002D668 /* SNAC-SBL.cpp in Sources */,
+				375F33880A97B6220002D668 /* SNAC-SRV.cpp in Sources */,
+				375F33890A97B6220002D668 /* SNAC-UIN.cpp in Sources */,
+				375F338A0A97B6220002D668 /* SNAC.cpp in Sources */,
+				375F338B0A97B6220002D668 /* socket.cpp in Sources */,
+				375F338C0A97B6220002D668 /* SocketClient.cpp in Sources */,
+				375F338D0A97B6220002D668 /* time_extra.cpp in Sources */,
+				375F338E0A97B6220002D668 /* TLV.cpp in Sources */,
+				375F338F0A97B6220002D668 /* Translator.cpp in Sources */,
+				375F33900A97B6220002D668 /* UserInfoBlock.cpp in Sources */,
+				375F33910A97B6220002D668 /* Xml.cpp in Sources */,
+				375F33640A97B5F00002D668 /* buffer.cpp in Sources */,
+				375F33670A97B5F20002D668 /* Capabilities.cpp in Sources */,
+				375F33690A97B5F30002D668 /* Client.cpp in Sources */,
+				375F336C0A97B5F50002D668 /* Contact.cpp in Sources */,
+				375F336E0A97B5F60002D668 /* ContactList.cpp in Sources */,
+				375F33700A97B5F80002D668 /* ContactTree.cpp in Sources */,
+				375F33730A97B5FA0002D668 /* DirectClient.cpp in Sources */,
+				375F33750A97B5FA0002D668 /* events.cpp in Sources */,
+				375F33770A97B5FB0002D668 /* exceptions.cpp in Sources */,
+				375F33790A97B5FE0002D668 /* FileTransferClient.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		375F33A00A97B6A30002D668 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = libicq2000/icq2000.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = libicq2000;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = icq2000;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		375F33A10A97B6A30002D668 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREFIX_HEADER = libicq2000/icq2000.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = libicq2000;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = icq2000;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		375F33A20A97B6A30002D668 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREFIX_HEADER = libicq2000/icq2000.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = libicq2000;
+				INSTALL_PATH = /usr/local/lib;
+				PREBINDING = NO;
+				PRODUCT_NAME = icq2000;
+				ZERO_LINK = YES;
+			};
+			name = Default;
+		};
+		3772F7D50A979F2800CA2792 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		3772F7D60A979F2800CA2792 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		3772F7D70A979F2800CA2792 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		375F339F0A97B6A30002D668 /* Build configuration list for PBXNativeTarget "icq2000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				375F33A00A97B6A30002D668 /* Development */,
+				375F33A10A97B6A30002D668 /* Deployment */,
+				375F33A20A97B6A30002D668 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		3772F7D40A979F2800CA2792 /* Build configuration list for PBXProject "libicq2000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3772F7D50A979F2800CA2792 /* Development */,
+				3772F7D60A979F2800CA2792 /* Deployment */,
+				3772F7D70A979F2800CA2792 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

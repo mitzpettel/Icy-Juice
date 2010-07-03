@@ -1,0 +1,35 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                focusOnRecipient = id; 
+                readStatusMessage = id; 
+                rejectCancelClicked = id; 
+                rejectResendClicked = id; 
+                removeRecipient = id; 
+                send = id; 
+                showContactHistory = id; 
+                toggleStatusBarShown = id; 
+            }; 
+            CLASS = OutgoingMessageController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                messageField = id; 
+                recipientsDrawer = NSDrawer; 
+                recipientsView = id; 
+                rejectDescriptionField = NSTextField; 
+                rejectMessageSheet = NSPanel; 
+                rejectStatusMessageField = NSTextView; 
+                rejectTitleField = NSTextField; 
+                rejectUrgentButton = NSButton; 
+                statusBarController = MPStatusBarController; 
+                statusIcon = NSImageView; 
+                statusTextField = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = java.lang.Object; LANGUAGE = Java; }
+    ); 
+    IBVersion = 1; 
+}

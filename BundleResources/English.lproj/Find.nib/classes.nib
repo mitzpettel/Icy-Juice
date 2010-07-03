@@ -1,0 +1,36 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                add = id; 
+                searchFinished = id; 
+                searchStarted = id; 
+                showInfo = id; 
+                startFind = id; 
+                stopFind = id; 
+            }; 
+            CLASS = FindController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addButton = id; 
+                emailField = id; 
+                findButton = id; 
+                firstNameField = id; 
+                icqNumberField = id; 
+                infoButton = id; 
+                lastNameField = id; 
+                nicknameField = id; 
+                resultsView = id; 
+                tabs = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            ACTIONS = {findContacts = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
